@@ -32,37 +32,23 @@
         "groups": [
           {
             "name": "Getting Started",
-            "pages": [
-              "Overview",
-              "FAQ"
-            ]
+            "pages": ["Overview", "FAQ"]
           },
           {
             "name": "Wiki",
-            "pages": [
-              "Wiki/topic1",
-              "Wiki/topic2"
-            ]
+            "pages": ["Wiki/topic1", "Wiki/topic2"]
           },
           {
             "name": "Blog",
-            "pages": [
-              "Blog/article1",
-              "Blog/article2"
-            ]
+            "pages": ["Blog/article1", "Blog/article2"]
           },
           {
             "name": "How-To",
-            "pages": [
-              "How-To/guide1",
-              "How-To/guide2"
-            ]
+            "pages": ["How-To/guide1", "How-To/guide2"]
           },
           {
             "name": "Socials",
-            "pages": [
-              "Socials"
-            ]
+            "pages": ["Socials"]
           }
         ]
       },
@@ -72,41 +58,26 @@
         "groups": [
           {
             "name": "Getting Started",
-            "pages": [
-              "Overview",
-              "FAQ"
-            ]
+            "pages": ["Overview", "FAQ"]
           },
           {
             "name": "Wiki",
-            "pages": [
-              "Wiki/topic1",
-              "Wiki/topic2"
-            ]
+            "pages": ["Wiki/topic1", "Wiki/topic2"]
           },
           {
             "name": "Blog",
-            "pages": [
-              "Blog/article1",
-              "Blog/article2"
-            ]
+            "pages": ["Blog/article1", "Blog/article2"]
           },
           {
             "name": "How-To",
-            "pages": [
-              "How-To/guide1",
-              "How-To/guide2"
-            ]
+            "pages": ["How-To/guide1", "How-To/guide2"]
           },
           {
             "name": "Socials",
-            "pages": [
-              "Socials"
-            ]
+            "pages": ["Socials"]
           }
         ]
       }
-      // 🔁 Repeat the above pattern for each of the other tabs
     ]
   },
   "footerSocials": {
