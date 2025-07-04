@@ -22,7 +22,10 @@
     "name": "Dashboard",
     "url": "https://firuz-alimov.com/dashboard"
   },
-  "search": true,
+  "search": {
+    "enabled": true,
+    "placeholder": "Search documentation..."
+  },
   "navigation": {
     "languages": ["en"],
     "versions": ["v1"],
