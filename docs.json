@@ -23,15 +23,105 @@
     "url": "https://firuz-alimov.com/dashboard"
   },
   "navigation": [
-    { "group": "Alimov Ltd", "pages": ["alimov-ltd/Overview", "alimov-ltd/FAQ", { "group": "Wiki", "pages": ["alimov-ltd/Wiki/topic1", "alimov-ltd/Wiki/topic2"] }, { "group": "Blog", "pages": ["alimov-ltd/Blog/article1", "alimov-ltd/Blog/article2"] }, { "group": "How-To", "pages": ["alimov-ltd/How-To/guide1", "alimov-ltd/How-To/guide2"] }, "alimov-ltd/Socials"] },
-    { "group": "Calculator", "pages": ["calculator/Overview", "calculator/FAQ", { "group": "Wiki", "pages": ["calculator/Wiki/topic1", "calculator/Wiki/topic2"] }, { "group": "Blog", "pages": ["calculator/Blog/article1", "calculator/Blog/article2"] }, { "group": "How-To", "pages": ["calculator/How-To/guide1", "calculator/How-To/guide2"] }, "calculator/Socials"] },
-    { "group": "Life Plan", "pages": ["life-plan/Overview", "life-plan/FAQ", { "group": "Wiki", "pages": ["life-plan/Wiki/topic1", "life-plan/Wiki/topic2"] }, { "group": "Blog", "pages": ["life-plan/Blog/article1", "life-plan/Blog/article2"] }, { "group": "How-To", "pages": ["life-plan/How-To/guide1", "life-plan/How-To/guide2"] }, "life-plan/Socials"] },
-    { "group": "Sip Buddy", "pages": ["sip-buddy/Overview", "sip-buddy/FAQ", { "group": "Wiki", "pages": ["sip-buddy/Wiki/topic1", "sip-buddy/Wiki/topic2"] }, { "group": "Blog", "pages": ["sip-buddy/Blog/article1", "sip-buddy/Blog/article2"] }, { "group": "How-To", "pages": ["sip-buddy/How-To/guide1", "sip-buddy/How-To/guide2"] }, "sip-buddy/Socials"] },
-    { "group": "Love, Trust & Wealth", "pages": ["love-trust-wealth/Overview", "love-trust-wealth/FAQ", { "group": "Wiki", "pages": ["love-trust-wealth/Wiki/topic1", "love-trust-wealth/Wiki/topic2"] }, { "group": "Blog", "pages": ["love-trust-wealth/Blog/article1", "love-trust-wealth/Blog/article2"] }, { "group": "How-To", "pages": ["love-trust-wealth/How-To/guide1", "love-trust-wealth/How-To/guide2"] }, "love-trust-wealth/Socials"] },
-    { "group": "Flavor Foe", "pages": ["flavor-foe/Overview", "flavor-foe/FAQ", { "group": "Wiki", "pages": ["flavor-foe/Wiki/topic1", "flavor-foe/Wiki/topic2"] }, { "group": "Blog", "pages": ["flavor-foe/Blog/article1", "flavor-foe/Blog/article2"] }, { "group": "How-To", "pages": ["flavor-foe/How-To/guide1", "flavor-foe/How-To/guide2"] }, "flavor-foe/Socials"] },
-    { "group": "Fractional Ownership", "pages": ["fractional-ownership/Overview", "fractional-ownership/FAQ", { "group": "Wiki", "pages": ["fractional-ownership/Wiki/topic1", "fractional-ownership/Wiki/topic2"] }, { "group": "Blog", "pages": ["fractional-ownership/Blog/article1", "fractional-ownership/Blog/article2"] }, { "group": "How-To", "pages": ["fractional-ownership/How-To/guide1", "fractional-ownership/How-To/guide2"] }, "fractional-ownership/Socials"] },
-    { "group": "AlgoForge", "pages": ["algoforge/Overview", "algoforge/FAQ", { "group": "Wiki", "pages": ["algoforge/Wiki/topic1", "algoforge/Wiki/topic2"] }, { "group": "Blog", "pages": ["algoforge/Blog/article1", "algoforge/Blog/article2"] }, { "group": "How-To", "pages": ["algoforge/How-To/guide1", "algoforge/How-To/guide2"] }, "algoforge/Socials"] },
-    { "group": "Tinder Finance", "pages": ["tinder-finance/Overview", "tinder-finance/FAQ", { "group": "Wiki", "pages": ["tinder-finance/Wiki/topic1", "tinder-finance/Wiki/topic2"] }, { "group": "Blog", "pages": ["tinder-finance/Blog/article1", "tinder-finance/Blog/article2"] }, { "group": "How-To", "pages": ["tinder-finance/How-To/guide1", "tinder-finance/How-To/guide2"] }, "tinder-finance/Socials"] },
+    { "group": "Alimov Ltd", "pages": [
+      "alimov-ltd/Overview",
+      "alimov-ltd/FAQ",
+      "alimov-ltd/Wiki/topic1",
+      "alimov-ltd/Wiki/topic2",
+      "alimov-ltd/Blog/article1",
+      "alimov-ltd/Blog/article2",
+      "alimov-ltd/How-To/guide1",
+      "alimov-ltd/How-To/guide2",
+      "alimov-ltd/Socials"
+    ] },
+    { "group": "Calculator", "pages": [
+      "calculator/Overview",
+      "calculator/FAQ",
+      "calculator/Wiki/topic1",
+      "calculator/Wiki/topic2",
+      "calculator/Blog/article1",
+      "calculator/Blog/article2",
+      "calculator/How-To/guide1",
+      "calculator/How-To/guide2",
+      "calculator/Socials"
+    ] },
+    { "group": "Life Plan", "pages": [
+      "life-plan/Overview",
+      "life-plan/FAQ",
+      "life-plan/Wiki/topic1",
+      "life-plan/Wiki/topic2",
+      "life-plan/Blog/article1",
+      "life-plan/Blog/article2",
+      "life-plan/How-To/guide1",
+      "life-plan/How-To/guide2",
+      "life-plan/Socials"
+    ] },
+    { "group": "Sip Buddy", "pages": [
+      "sip-buddy/Overview",
+      "sip-buddy/FAQ",
+      "sip-buddy/Wiki/topic1",
+      "sip-buddy/Wiki/topic2",
+      "sip-buddy/Blog/article1",
+      "sip-buddy/Blog/article2",
+      "sip-buddy/How-To/guide1",
+      "sip-buddy/How-To/guide2",
+      "sip-buddy/Socials"
+    ] },
+    { "group": "Love, Trust & Wealth", "pages": [
+      "love-trust-wealth/Overview",
+      "love-trust-wealth/FAQ",
+      "love-trust-wealth/Wiki/topic1",
+      "love-trust-wealth/Wiki/topic2",
+      "love-trust-wealth/Blog/article1",
+      "love-trust-wealth/Blog/article2",
+      "love-trust-wealth/How-To/guide1",
+      "love-trust-wealth/How-To/guide2",
+      "love-trust-wealth/Socials"
+    ] },
+    { "group": "Flavor Foe", "pages": [
+      "flavor-foe/Overview",
+      "flavor-foe/FAQ",
+      "flavor-foe/Wiki/topic1",
+      "flavor-foe/Wiki/topic2",
+      "flavor-foe/Blog/article1",
+      "flavor-foe/Blog/article2",
+      "flavor-foe/How-To/guide1",
+      "flavor-foe/How-To/guide2",
+      "flavor-foe/Socials"
+    ] },
+    { "group": "Fractional Ownership", "pages": [
+      "fractional-ownership/Overview",
+      "fractional-ownership/FAQ",
+      "fractional-ownership/Wiki/topic1",
+      "fractional-ownership/Wiki/topic2",
+      "fractional-ownership/Blog/article1",
+      "fractional-ownership/Blog/article2",
+      "fractional-ownership/How-To/guide1",
+      "fractional-ownership/How-To/guide2",
+      "fractional-ownership/Socials"
+    ] },
+    { "group": "AlgoForge", "pages": [
+      "algoforge/Overview",
+      "algoforge/FAQ",
+      "algoforge/Wiki/topic1",
+      "algoforge/Wiki/topic2",
+      "algoforge/Blog/article1",
+      "algoforge/Blog/article2",
+      "algoforge/How-To/guide1",
+      "algoforge/How-To/guide2",
+      "algoforge/Socials"
+    ] },
+    { "group": "Tinder Finance", "pages": [
+      "tinder-finance/Overview",
+      "tinder-finance/FAQ",
+      "tinder-finance/Wiki/topic1",
+      "tinder-finance/Wiki/topic2",
+      "tinder-finance/Blog/article1",
+      "tinder-finance/Blog/article2",
+      "tinder-finance/How-To/guide1",
+      "tinder-finance/How-To/guide2",
+      "tinder-finance/Socials"
+    ] },
     { "group": "About Firuz Alimov", "pages": ["about-firuz"] }
   ],
   "footerSocials": {
