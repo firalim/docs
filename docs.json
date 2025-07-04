@@ -22,28 +22,45 @@
     "name": "Dashboard",
     "url": "https://firuz-alimov.com/dashboard"
   },
+  "search": true,
   "navigation": {
     "languages": ["en"],
     "versions": ["v1"],
+    "collapse-level": 2,
+    "dropdowns": [
+      {
+        "dropdown": "Financial Tools",
+        "icon": "calculator",
+        "pages": [
+          "calculator/Overview",
+          "tinder-finance/Overview",
+          "love-trust-wealth/Overview"
+        ]
+      }
+    ],
     "tabs": [
       {
         "tab": "Alimov Ltd",
         "href": "alimov-ltd",
         "groups": [
           {
-            "name": "Getting Started",
+            "name": "Start",
+            "icon": "rocket",
             "pages": ["Overview", "FAQ"]
           },
           {
             "name": "Wiki",
+            "icon": "book-open",
             "pages": ["Wiki/topic1", "Wiki/topic2", "Wiki/Socials"]
           },
           {
             "name": "Blog",
+            "icon": "newspaper",
             "pages": ["Blog/article1", "Blog/article2"]
           },
           {
-            "name": "How-To",
+            "name": "Guides",
+            "icon": "pen-to-square",
             "pages": ["How-To/guide1", "How-To/guide2"]
           }
         ]
@@ -53,19 +70,23 @@
         "href": "calculator",
         "groups": [
           {
-            "name": "Getting Started",
+            "name": "Start",
+            "icon": "rocket",
             "pages": ["calculator/Overview", "calculator/FAQ"]
           },
           {
             "name": "Wiki",
+            "icon": "book-open",
             "pages": ["calculator/Wiki/topic1", "calculator/Wiki/topic2", "calculator/Wiki/Socials"]
           },
           {
             "name": "Blog",
+            "icon": "newspaper",
             "pages": ["calculator/Blog/article1", "calculator/Blog/article2"]
           },
           {
-            "name": "How-To",
+            "name": "Guides",
+            "icon": "pen-to-square",
             "pages": ["calculator/How-To/guide1", "calculator/How-To/guide2"]
           }
         ]
@@ -75,19 +96,23 @@
         "href": "flavor-foe",
         "groups": [
           {
-            "name": "Getting Started",
+            "name": "Start",
+            "icon": "rocket",
             "pages": ["flavor-foe/Overview", "flavor-foe/FAQ"]
           },
           {
             "name": "Wiki",
+            "icon": "book-open",
             "pages": ["flavor-foe/Wiki/topic1", "flavor-foe/Wiki/topic2", "flavor-foe/Wiki/Socials"]
           },
           {
             "name": "Blog",
+            "icon": "newspaper",
             "pages": ["flavor-foe/Blog/article1", "flavor-foe/Blog/article2"]
           },
           {
-            "name": "How-To",
+            "name": "Guides",
+            "icon": "pen-to-square",
             "pages": ["flavor-foe/How-To/guide1", "flavor-foe/How-To/guide2"]
           }
         ]
@@ -97,19 +122,23 @@
         "href": "fractional-ownership",
         "groups": [
           {
-            "name": "Getting Started",
+            "name": "Start",
+            "icon": "rocket",
             "pages": ["fractional-ownership/Overview", "fractional-ownership/FAQ"]
           },
           {
             "name": "Wiki",
+            "icon": "book-open",
             "pages": ["fractional-ownership/Wiki/topic1", "fractional-ownership/Wiki/topic2", "fractional-ownership/Wiki/Socials"]
           },
           {
             "name": "Blog",
+            "icon": "newspaper",
             "pages": ["fractional-ownership/Blog/article1", "fractional-ownership/Blog/article2"]
           },
           {
-            "name": "How-To",
+            "name": "Guides",
+            "icon": "pen-to-square",
             "pages": ["fractional-ownership/How-To/guide1", "fractional-ownership/How-To/guide2"]
           }
         ]
@@ -119,19 +148,23 @@
         "href": "life-plan",
         "groups": [
           {
-            "name": "Getting Started",
+            "name": "Start",
+            "icon": "rocket",
             "pages": ["life-plan/Overview", "life-plan/FAQ"]
           },
           {
             "name": "Wiki",
+            "icon": "book-open",
             "pages": ["life-plan/Wiki/topic1", "life-plan/Wiki/topic2", "life-plan/Wiki/Socials"]
           },
           {
             "name": "Blog",
+            "icon": "newspaper",
             "pages": ["life-plan/Blog/article1", "life-plan/Blog/article2"]
           },
           {
-            "name": "How-To",
+            "name": "Guides",
+            "icon": "pen-to-square",
             "pages": ["life-plan/How-To/guide1", "life-plan/How-To/guide2"]
           }
         ]
@@ -141,19 +174,23 @@
         "href": "love-trust-wealth",
         "groups": [
           {
-            "name": "Getting Started",
+            "name": "Start",
+            "icon": "rocket",
             "pages": ["love-trust-wealth/Overview", "love-trust-wealth/FAQ"]
           },
           {
             "name": "Wiki",
+            "icon": "book-open",
             "pages": ["love-trust-wealth/Wiki/topic1", "love-trust-wealth/Wiki/topic2", "love-trust-wealth/Wiki/Socials"]
           },
           {
             "name": "Blog",
+            "icon": "newspaper",
             "pages": ["love-trust-wealth/Blog/article1", "love-trust-wealth/Blog/article2"]
           },
           {
-            "name": "How-To",
+            "name": "Guides",
+            "icon": "pen-to-square",
             "pages": ["love-trust-wealth/How-To/guide1", "love-trust-wealth/How-To/guide2"]
           }
         ]
@@ -163,19 +200,23 @@
         "href": "sip-buddy",
         "groups": [
           {
-            "name": "Getting Started",
+            "name": "Start",
+            "icon": "rocket",
             "pages": ["sip-buddy/Overview", "sip-buddy/FAQ"]
           },
           {
             "name": "Wiki",
+            "icon": "book-open",
             "pages": ["sip-buddy/Wiki/topic1", "sip-buddy/Wiki/topic2", "sip-buddy/Wiki/Socials"]
           },
           {
             "name": "Blog",
+            "icon": "newspaper",
             "pages": ["sip-buddy/Blog/article1", "sip-buddy/Blog/article2"]
           },
           {
-            "name": "How-To",
+            "name": "Guides",
+            "icon": "pen-to-square",
             "pages": ["sip-buddy/How-To/guide1", "sip-buddy/How-To/guide2"]
           }
         ]
@@ -185,19 +226,23 @@
         "href": "tinder-finance",
         "groups": [
           {
-            "name": "Getting Started",
+            "name": "Start",
+            "icon": "rocket",
             "pages": ["tinder-finance/Overview", "tinder-finance/FAQ"]
           },
           {
             "name": "Wiki",
+            "icon": "book-open",
             "pages": ["tinder-finance/Wiki/topic1", "tinder-finance/Wiki/topic2", "tinder-finance/Wiki/Socials"]
           },
           {
             "name": "Blog",
+            "icon": "newspaper",
             "pages": ["tinder-finance/Blog/article1", "tinder-finance/Blog/article2"]
           },
           {
-            "name": "How-To",
+            "name": "Guides",
+            "icon": "pen-to-square",
             "pages": ["tinder-finance/How-To/guide1", "tinder-finance/How-To/guide2"]
           }
         ]
@@ -206,7 +251,7 @@
   },
   "footerSocials": {
     "github": "https://github.com/firalim",
-    "linkedin": "https:// deeper-link-to-linkedin-profile",
+    "linkedin": "https://www.linkedin.com/in/firuz-alimov/",
     "x": "https://x.com/firalim"
   },
   "modeToggle": {
