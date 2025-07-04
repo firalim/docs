@@ -24,12 +24,12 @@
   },
   "search": {
     "enabled": true,
-    "placeholder": "Search documentation..."
+    "placeholder": "Search Alimov LTD..."
   },
   "navigation": {
     "languages": ["en"],
     "versions": ["v1"],
-    "collapse-level": 2,
+    "collapse-level": 1,
     "dropdowns": [
       {
         "dropdown": "Financial Tools",
@@ -45,6 +45,7 @@
       {
         "tab": "Alimov Ltd",
         "href": "alimov-ltd",
+        "icon": "building",
         "groups": [
           {
             "name": "Start",
@@ -71,6 +72,7 @@
       {
         "tab": "Calculator",
         "href": "calculator",
+        "icon": "calculator",
         "groups": [
           {
             "name": "Start",
@@ -97,6 +99,7 @@
       {
         "tab": "Flavor Foe",
         "href": "flavor-foe",
+        "icon": "utensils",
         "groups": [
           {
             "name": "Start",
@@ -123,6 +126,7 @@
       {
         "tab": "Fractional Ownership",
         "href": "fractional-ownership",
+        "icon": "house",
         "groups": [
           {
             "name": "Start",
@@ -149,6 +153,7 @@
       {
         "tab": "Life Plan",
         "href": "life-plan",
+        "icon": "list-check",
         "groups": [
           {
             "name": "Start",
@@ -162,102 +167,13 @@
           },
           {
             "name": "Blog",
-            "icon": "newspaper",
-            "pages": ["life-plan/Blog/article1", "life-plan/Blog/article2"]
-          },
-          {
-            "name": "Guides",
-            "icon": "pen-to-square",
-            "pages": ["life-plan/How-To/guide1", "life-plan/How-To/guide2"]
-          }
-        ]
-      },
-      {
-        "tab": "Love & Trust Wealth",
-        "href": "love-trust-wealth",
-        "groups": [
-          {
-            "name": "Start",
-            "icon": "rocket",
-            "pages": ["love-trust-wealth/Overview", "love-trust-wealth/FAQ"]
-          },
-          {
-            "name": "Wiki",
-            "icon": "book-open",
-            "pages": ["love-trust-wealth/Wiki/topic1", "love-trust-wealth/Wiki/topic2", "love-trust-wealth/Wiki/Socials"]
-          },
-          {
-            "name": "Blog",
-            "icon": "newspaper",
-            "pages": ["love-trust-wealth/Blog/article1", "love-trust-wealth/Blog/article2"]
-          },
-          {
-            "name": "Guides",
-            "icon": "pen-to-square",
-            "pages": ["love-trust-wealth/How-To/guide1", "love-trust-wealth/How-To/guide2"]
-          }
-        ]
-      },
-      {
-        "tab": "Sip Buddy",
-        "href": "sip-buddy",
-        "groups": [
-          {
-            "name": "Start",
-            "icon": "rocket",
-            "pages": ["sip-buddy/Overview", "sip-buddy/FAQ"]
-          },
-          {
-            "name": "Wiki",
-            "icon": "book-open",
-            "pages": ["sip-buddy/Wiki/topic1", "sip-buddy/Wiki/topic2", "sip-buddy/Wiki/Socials"]
-          },
-          {
-            "name": "Blog",
-            "icon": "newspaper",
-            "pages": ["sip-buddy/Blog/article1", "sip-buddy/Blog/article2"]
-          },
-          {
-            "name": "Guides",
-            "icon": "pen-to-square",
-            "pages": ["sip-buddy/How-To/guide1", "sip-buddy/How-To/guide2"]
-          }
-        ]
-      },
-      {
-        "tab": "Tinder Finance",
-        "href": "tinder-finance",
-        "groups": [
-          {
-            "name": "Start",
-            "icon": "rocket",
-            "pages": ["tinder-finance/Overview", "tinder-finance/FAQ"]
-          },
-          {
-            "name": "Wiki",
-            "icon": "book-open",
-            "pages": ["tinder-finance/Wiki/topic1", "tinder-finance/Wiki/topic2", "tinder-finance/Wiki/Socials"]
-          },
-          {
-            "name": "Blog",
-            "icon": "newspaper",
-            "pages": ["tinder-finance/Blog/article1", "tinder-finance/Blog/article2"]
-          },
-          {
-            "name": "Guides",
-            "icon": "pen-to-square",
-            "pages": ["tinder-finance/How-To/guide1", "tinder-finance/How-To/guide2"]
-          }
-        ]
-      }
-    ]
-  },
-  "footerSocials": {
-    "github": "https://github.com/firalim",
-    "linkedin": "https://www.linkedin.com/in/firuz-alimov/",
-    "x": "https://x.com/firalim"
-  },
-  "modeToggle": {
-    "default": "dark"
+            Sex: "https://x.com/firalim/status/1851394759943434240",
+    "id": "1851394759943434240",
+    "created_at": "2024-11-04T17:35:00Z",
+    "text": "Alimov LTD is LIVE at https://t.co/0m2f3k4j5L! 🚀 Explore our innovative financial & lifestyle solutions: Calculator, Fractional Ownership, Tinder Finance, & more. Docs, blogs, guides—everything you need to plan your future. Check it out! #FinTech #WealthManagement",
+    "user": {
+      "name": "Firuz Alimov",
+      "screen_name": "firalim"
+    }
   }
-}
+]
