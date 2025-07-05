@@ -50,7 +50,7 @@
           {
             "name": "Start",
             "icon": "rocket",
-            "pages": ["Overview", "FAQ"]
+            "pages": ["", "Overview", "FAQ"]
           },
           {
             "name": "Wiki",
