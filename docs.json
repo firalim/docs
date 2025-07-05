@@ -30,15 +30,11 @@
     "languages": ["en"],
     "versions": ["v1"],
     "collapse-level": 1,
-    "dropdowns": [
+    "anchors": [
       {
-        "dropdown": "Financial Tools",
-        "icon": "calculator",
-        "pages": [
-          "calculator/Overview",
-          "tinder-finance/Overview",
-          "love-trust-wealth/Overview"
-        ]
+        "anchor": "Home",
+        "icon": "home",
+        "pages": [""]
       }
     ],
     "tabs": [
@@ -50,7 +46,7 @@
           {
             "name": "Start",
             "icon": "rocket",
-            "pages": ["", "Overview", "FAQ"]
+            "pages": ["Overview", "FAQ"]
           },
           {
             "name": "Wiki",
@@ -256,6 +252,17 @@
             "icon": "pen-to-square",
             "pages": ["tinder-finance/How-To/guide1", "tinder-finance/How-To/guide2"]
           }
+        ]
+      }
+    ],
+    "dropdowns": [
+      {
+        "dropdown": "Financial Tools",
+        "icon": "calculator",
+        "pages": [
+          "calculator/Overview",
+          "tinder-finance/Overview",
+          "love-trust-wealth/Overview"
         ]
       }
     ]
