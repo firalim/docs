@@ -31,7 +31,7 @@
       {
         "anchor": "Home",
         "icon": "home",
-        "pages": ["index"]
+        "pages": ["/index"]
       }
     ],
     "tabs": [
@@ -42,22 +42,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["overview", "faq"]
+            "pages": ["/overview", "/faq"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["wiki/topic1", "wiki/topic2", "wiki/socials"]
+            "pages": ["/wiki/topic1", "/wiki/topic2", "/wiki/socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["blog/article1", "blog/article2"]
+            "pages": ["/blog/article1", "/blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["how-to/guide1", "how-to/guide2"]
+            "pages": ["/how-to/guide1", "/how-to/guide2"]
           }
         ]
       },
@@ -68,22 +68,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["calculator/overview", "calculator/faq"]
+            "pages": ["/calculator/overview", "/calculator/faq"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["calculator/wiki/topic1", "calculator/wiki/topic2", "calculator/wiki/socials"]
+            "pages": ["/calculator/wiki/topic1", "/calculator/wiki/topic2", "/calculator/wiki/socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["calculator/blog/article1", "calculator/blog/article2"]
+            "pages": ["/calculator/blog/article1", "/calculator/blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["calculator/how-to/guide1", "calculator/how-to/guide2"]
+            "pages": ["/calculator/how-to/guide1", "/calculator/how-to/guide2"]
           }
         ]
       },
@@ -94,22 +94,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["flavor-foe/overview", "flavor-foe/faq"]
+            "pages": ["/flavor-foe/overview", "/flavor-foe/faq"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["flavor-foe/wiki/topic1", "flavor-foe/wiki/topic2", "flavor-foe/wiki/socials"]
+            "pages": ["/flavor-foe/wiki/topic1", "/flavor-foe/wiki/topic2", "/flavor-foe/wiki/socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["flavor-foe/blog/article1", "flavor-foe/blog/article2"]
+            "pages": ["/flavor-foe/blog/article1", "/flavor-foe/blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["flavor-foe/how-to/guide1", "flavor-foe/how-to/guide2"]
+            "pages": ["/flavor-foe/how-to/guide1", "/flavor-foe/how-to/guide2"]
           }
         ]
       },
@@ -120,22 +120,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["fractional-ownership/overview", "fractional-ownership/faq"]
+            "pages": ["/fractional-ownership/overview", "/fractional-ownership/faq"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["fractional-ownership/wiki/topic1", "fractional-ownership/wiki/topic2", "fractional-ownership/wiki/socials"]
+            "pages": ["/fractional-ownership/wiki/topic1", "/fractional-ownership/wiki/topic2", "/fractional-ownership/wiki/socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["fractional-ownership/blog/article1", "fractional-ownership/blog/article2"]
+            "pages": ["/fractional-ownership/blog/article1", "/fractional-ownership/blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["fractional-ownership/how-to/guide1", "fractional-ownership/how-to/guide2"]
+            "pages": ["/fractional-ownership/how-to/guide1", "/fractional-ownership/how-to/guide2"]
           }
         ]
       },
@@ -146,22 +146,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["life-plan/overview", "life-plan/faq"]
+            "pages": ["/life-plan/overview", "/life-plan/faq"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["life-plan/wiki/topic1", "life-plan/wiki/topic2", "life-plan/wiki/socials"]
+            "pages": ["/life-plan/wiki/topic1", "/life-plan/wiki/topic2", "/life-plan/wiki/socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["life-plan/blog/article1", "life-plan/blog/article2"]
+            "pages": ["/life-plan/blog/article1", "/life-plan/blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["life-plan/how-to/guide1", "life-plan/how-to/guide2"]
+            "pages": ["/life-plan/how-to/guide1", "/life-plan/how-to/guide2"]
           }
         ]
       },
@@ -172,22 +172,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["love-trust-wealth/overview", "love-trust-wealth/faq"]
+            "pages": ["/love-trust-wealth/overview", "/love-trust-wealth/faq"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["love-trust-wealth/wiki/topic1", "love-trust-wealth/wiki/topic2", "love-trust-wealth/wiki/socials"]
+            "pages": ["/love-trust-wealth/wiki/topic1", "/love-trust-wealth/wiki/topic2", "/love-trust-wealth/wiki/socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["love-trust-wealth/blog/article1", "love-trust-wealth/blog/article2"]
+            "pages": ["/love-trust-wealth/blog/article1", "/love-trust-wealth/blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["love-trust-wealth/how-to/guide1", "love-trust-wealth/how-to/guide2"]
+            "pages": ["/love-trust-wealth/how-to/guide1", "/love-trust-wealth/how-to/guide2"]
           }
         ]
       },
@@ -198,22 +198,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["sip-buddy/overview", "sip-buddy/faq"]
+            "pages": ["/sip-buddy/overview", "/sip-buddy/faq"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["sip-buddy/wiki/topic1", "sip-buddy/wiki/topic2", "sip-buddy/wiki/socials"]
+            "pages": ["/sip-buddy/wiki/topic1", "/sip-buddy/wiki/topic2", "/sip-buddy/wiki/socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["sip-buddy/blog/article1", "sip-buddy/blog/article2"]
+            "pages": ["/sip-buddy/blog/article1", "/sip-buddy/blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["sip-buddy/how-to/guide1", "sip-buddy/how-to/guide2"]
+            "pages": ["/sip-buddy/how-to/guide1", "/sip-buddy/how-to/guide2"]
           }
         ]
       },
@@ -224,22 +224,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["tinder-finance/overview", "tinder-finance/faq"]
+            "pages": ["/tinder-finance/overview", "/tinder-finance/faq"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["tinder-finance/wiki/topic1", "tinder-finance/wiki/topic2", "tinder-finance/wiki/socials"]
+            "pages": ["/tinder-finance/wiki/topic1", "/tinder-finance/wiki/topic2", "/tinder-finance/wiki/socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["tinder-finance/blog/article1", "tinder-finance/blog/article2"]
+            "pages": ["/tinder-finance/blog/article1", "/tinder-finance/blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["tinder-finance/how-to/guide1", "tinder-finance/how-to/guide2"]
+            "pages": ["/tinder-finance/how-to/guide1", "/tinder-finance/how-to/guide2"]
           }
         ]
       }
@@ -249,9 +249,9 @@
         "dropdown": "Financial Tools",
         "icon": "calculator",
         "pages": [
-          "calculator/overview",
-          "tinder-finance/overview",
-          "love-trust-wealth/overview"
+          "/calculator/overview",
+          "/tinder-finance/overview",
+          "/love-trust-wealth/overview"
         ]
       }
     ]
