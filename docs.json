@@ -3,8 +3,8 @@
   "theme": "willow",
   "name": "Alimov LTD",
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/AlimovLogo.jpg",
+    "dark": "/logo/AlimovLogo.jpg"
   },
   "favicon": "/favicon.svg",
   "colors": {
