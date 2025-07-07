@@ -47,7 +47,7 @@
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["alimov-ltd/Wiki/performance-transformation-blueprint", "alimov-ltd/Wiki/enterprise-performance-transformation-framework",  "alimov-ltd/Wiki/innovation-architecture", "alimov-ltd/Socials"]
+            "pages": ["alimov-ltd/Wiki/performance-transformation-blueprint", "alimov-ltd/Wiki/enterprise-performance-transformation-framework",  "alimov-ltd/Wiki/innovation-architecture", "alimov-ltd/Wiki/product-development-lifecycle", "alimov-ltd/Wiki/decision-intelligence-systems", "alimov-ltd/Wiki/product-development-lifecycle", "alimov-ltd/Wiki/cross-system-integration-and-automation","alimov-ltd/Socials"]
           },
           {
             "group": "Blog",
