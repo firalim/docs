@@ -73,7 +73,7 @@
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["algoforge/Wiki/topic1", "algoforge/Wiki/topic2", "algoforge/Socials"]
+            "pages": ["algoforge/Wiki/what-is-algoforge", "algoforge/Wiki/how-agents-work", "algoforge/Socials"]
           },
           {
             "group": "Blog",
