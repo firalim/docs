@@ -52,12 +52,38 @@
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["alimov-ltd/Blog/why-traditional-consulting-is-broken", "alimov-ltd/Blog/emotional-systems-design-scale", "alimov-ltd/Blog/6-week-product-launch-playbook", "alimov-ltd/Blog/vibe-coding-jazz-development-philosophy", "alimov-ltd/Blog/six-sigma-for-startups"]
+            "pages": ["alimov-ltd/Blog/why-traditional-consulting-is-broken", "alimov-ltd/Blog/emotional-systems-design-scale", "alimov-ltd/Blog/6-week-product-launch-playbook", "alimov-ltd/Blog/vibe-coding-jazz-development-philosophy", "alimov-ltd/Blog/six-sigma-for-startups", "alimov-ltd/Blog/from-prompt-to-blockchain", "alimov-ltd/Blog/why-digital-transformation-fails"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
             "pages": ["alimov-ltd/How-To/how-to-engage-alimov-ltd-as-a-partner", "alimov-ltd/How-To/how-to-request-a-custom-proposal", "alimov-ltd/How-To/how-to-invest-in-alimov-ltd-vision", "alimov-ltd/How-To/how-to-join-our-investment-circle", "alimov-ltd/How-To/how-to-sponsor-with-alimov-ltd", "alimov-ltd/How-To/how-to-white-label-our-products", "alimov-ltd/How-To/how-to-join-as-a-strategic-advisor" ]
+          }
+        ]
+      },
+            {
+        "tab": "Algoforge",
+        "icon": "calculator",
+        "groups": [
+          {
+            "group": "Start",
+            "icon": "rocket",
+            "pages": ["algoforge/Overview", "algoforge/FAQ"]
+          },
+          {
+            "group": "Wiki",
+            "icon": "book-open",
+            "pages": ["algoforge/Wiki/topic1", "algoforge/Wiki/topic2", "algoforge/Socials"]
+          },
+          {
+            "group": "Blog",
+            "icon": "newspaper",
+            "pages": ["algoforge/Blog/article1", "algoforge/Blog/article2"]
+          },
+          {
+            "group": "Guides",
+            "icon": "pen-to-square",
+            "pages": ["algoforge/How-To/guide1", "algoforge/How-To/guide2"]
           }
         ]
       },
