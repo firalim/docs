@@ -5,46 +5,106 @@ description: Understand how autonomous creative agents function inside AlgoForge
 
 # 🧠 How Agents Work
 
-AlgoForge agents are not static bots — they’re **living, creative digital performers**.
+AlgoForge agents are not static bots — they're **living, creative digital performers**.
 
 Built with Bolt.new, confirmed with ElevenLabs, and minted to Algorand, each agent is a **programmable entity** that generates voice-backed content and evolves through remix culture.
 
-Let’s break it down.
+Think of them as **creative DNA** that can replicate, mutate, and evolve through community collaboration.
+
+Let's break it down.
 
 ---
 
 ## 🧬 Agent Anatomy
 
-Every AlgoForge agent consists of five key components:
+Every AlgoForge agent consists of five key components that work together to create a unique digital personality:
 
-### 1. **Prompt Core**  
-The brain of the agent. It's what drives the creativity:
-- 🧩 Narrative logic or role (e.g. "You are a sarcastic AI chef that roasts food trends.")
-- 🎯 Task specificity (e.g. “Generate a 3-line insult in the style of a Michelin-star reviewer.”)
+### 1. **Prompt Core** 
+The brain of the agent — the creative engine that drives every output:
 
-### 2. **Trigger Conditions**  
-What activates the agent:
-- Button click (e.g., “Generate Roast”)
-- Chain reaction (another agent’s output triggers this one)
-- Scheduled (daily agents that post or mint at set times)
+**Narrative Logic:**
+- 🧩 **Role Definition** (e.g., "You are a sarcastic AI chef that roasts food trends")
+- 🎭 **Personality Traits** (witty, educational, mysterious, chaotic)
+- 📚 **Knowledge Domain** (finance, cooking, travel, philosophy)
 
-### 3. **Voice Personality**  
-Every agent speaks through a unique ElevenLabs-powered voice:
-- ✅ Adds emotional authenticity
-- ✅ Increases shareability
-- ✅ Acts as a “signature” for the agent’s personality
+**Task Specificity:**
+- 🎯 **Output Format** (tweet, limerick, roast, advice, story)
+- 📏 **Length Constraints** (280 characters, 3 lines, 1 minute speech)
+- 🎨 **Style Guidelines** (Shakespearean, Gen Z slang, technical jargon)
 
-### 4. **Behavior Logic**  
-Optional behavior modifiers, like:
-- Mood toggles (friendly vs chaotic)
-- Randomness sliders
-- Domain selectors (e.g., finance vs fashion)
+**Example Prompt Structures:**
+```text
+Basic: "Generate a funny tweet about crypto"
+Advanced: "As a cynical Wall Street veteran, write a 280-character tweet that sarcastically comments on the latest DeFi trend, using exactly one emoji and ending with a rhetorical question."
+```
 
-### 5. **Mint Configuration**  
-Each output is auto-minted:
-- Timestamped to Algorand
-- Attributed to the generating agent
-- Stored in Supabase for querying and remixing
+### 2. **Trigger Conditions**
+What activates the agent and when:
+
+**Manual Triggers:**
+- 🖱️ **Button Click** (e.g., "Generate Roast", "Create Limerick")
+- 📝 **Text Input** (user provides context or keywords)
+- 🎛️ **Parameter Selection** (mood, topic, style toggles)
+
+**Automated Triggers:**
+- ⏰ **Scheduled Events** (daily wisdom at 9 AM, weekly market commentary)
+- 🔗 **Chain Reactions** (another agent's output triggers this one)
+- 📊 **Data Conditions** (crypto price changes, news events, trending topics)
+
+**Advanced Triggers:**
+- 🌐 **Web Hooks** (external API calls, social media mentions)
+- 🎪 **Community Events** (remix challenges, voting results)
+- 📈 **Performance Metrics** (engagement thresholds, viral content detection)
+
+### 3. **Voice Personality**
+Every agent speaks through a unique ElevenLabs-powered voice that becomes its signature:
+
+**Voice Selection Impact:**
+- ✅ **Emotional Authenticity** - Converts text to believable human expression
+- ✅ **Increased Shareability** - Audio content gets 2x more engagement
+- ✅ **Brand Recognition** - Acts as a unique "signature" for the agent
+- ✅ **Accessibility** - Makes content available to visually impaired users
+
+**Voice Customization Options:**
+- 🎙️ **Tone Variations** (professional, casual, energetic, calm)
+- 🗣️ **Accent Choices** (British, American, Australian, neutral)
+- ⚡ **Speed Control** (slow and deliberate, fast and excited)
+- 🎵 **Emotional Range** (monotone robot, expressive human, theatrical)
+
+### 4. **Behavior Logic**
+Optional behavior modifiers that add complexity and personality:
+
+**Mood Systems:**
+- 😊 **Friendly Mode** - Encouraging, supportive, optimistic
+- 🤪 **Chaotic Mode** - Unpredictable, creative, rule-breaking
+- 😏 **Sarcastic Mode** - Witty, critical, ironic
+- 🤖 **Logical Mode** - Fact-based, analytical, precise
+
+**Dynamic Parameters:**
+- 🎲 **Randomness Sliders** (0% = consistent, 100% = wildly creative)
+- 🎯 **Domain Selectors** (finance, fashion, food, technology)
+- 📊 **Complexity Levels** (simple, moderate, expert)
+- 🌡️ **Temperature Controls** (conservative vs experimental outputs)
+
+**Learning Systems:**
+- 📈 **Performance Tracking** (which outputs get the most engagement)
+- 🔄 **Feedback Loops** (community voting influences future outputs)
+- 🧠 **Memory Systems** (remembers previous successful patterns)
+
+### 5. **Mint Configuration**
+Each output is automatically minted to create permanent, verifiable creative records:
+
+**Blockchain Integration:**
+- ⏰ **Timestamped to Algorand** - Immutable proof of creation time
+- 🏷️ **Attributed to Generating Agent** - Clear ownership and lineage
+- 💾 **Stored in Supabase** - Fast querying and remixing capabilities
+- 🔗 **Linked to Dependencies** - Tracks what inspired or influenced the output
+
+**Metadata Capture:**
+- 📋 **Creation Context** (prompt used, parameters set, trigger source)
+- 🎤 **Voice Settings** (ElevenLabs model, speed, tone)
+- 👥 **Collaboration Data** (if remixed, who contributed what)
+- 📊 **Performance Metrics** (engagement, remix count, viral score)
 
 ---
 
@@ -52,89 +112,278 @@ Each output is auto-minted:
 
 All agents are built using [Bolt.new](https://bolt.new), a no-code/low-code creative stack designed for speed and clarity.
 
-Key configuration sections in Bolt:
-- **Inputs**: Selectable dropdowns, mood pickers, or text fields
-- **Outputs**: AI-generated content, voice playback, blockchain minting confirmation
-- **APIs**: ElevenLabs (voice), Tavus (video soon), Supabase (storage), Algorand (mint)
-- **Remix Hooks**: Enable forking or chaining to other agents
+### Key Configuration Sections in Bolt:
 
-**Example Bolt Agent Flow:**
+**Input Layer:**
+- 🎛️ **Selectable Dropdowns** (mood, topic, style presets)
+- 🎨 **Mood Pickers** (visual sliders for emotional tone)
+- ✏️ **Text Fields** (custom prompts, context injection)
+- 📁 **File Uploads** (images for context, data for processing)
+
+**Processing Layer:**
+- 🧠 **AI Generation** (OpenAI, Anthropic, or custom models)
+- 🎙️ **Voice Synthesis** (ElevenLabs API integration)
+- 📊 **Data Processing** (web scraping, API calls, calculations)
+- 🔄 **Logic Flows** (conditional statements, loops, branching)
+
+**Output Layer:**
+- 📝 **Content Display** (formatted text, rich media)
+- 🔊 **Voice Playback** (embedded audio player)
+- ⛓️ **Blockchain Minting** (Algorand confirmation)
+- 🔗 **Sharing Options** (social media, direct links, embeds)
+
+**Integration APIs:**
+- 🎤 **ElevenLabs** (voice synthesis and cloning)
+- 📹 **Tavus** (video generation - coming soon)
+- 💾 **Supabase** (database storage and real-time updates)
+- ⛓️ **Algorand** (blockchain minting and verification)
+
+### Example Bolt Agent Flow:
+
 ```text
-User clicks “Generate Limerick” →
-Prompt: “Create a rhyming 5-line limerick about AI love” →
-Voice: Olivia, British Female →
-Mint →
-Share or Remix
+User Action: Clicks "Generate Limerick" →
+Input Processing: Captures mood selection + custom topic →
+AI Generation: "Create a rhyming 5-line limerick about AI love" →
+Voice Synthesis: Olivia, British Female, Playful tone →
+Quality Check: Validate rhyme scheme and syllable count →
+Blockchain Mint: Record to Algorand with metadata →
+User Interface: Display text + audio + share options →
+Community Feed: Auto-publish to Public Forge (if enabled)
+```
 
-🌀 Publishing, Remixing & Updating
-When your agent is complete:
+### Advanced Bolt Features:
 
-✅ Publishing
-Agent is available to all AlgoForge users
+**Conditional Logic:**
+```text
+IF mood = "chaotic" AND topic = "crypto"
+THEN add_disclaimer("This is financial satire, not advice")
+ELSE proceed_normally()
+```
 
-Outputs are voice-confirmed and minted to Algorand
+**Memory Integration:**
+```text
+REMEMBER previous_successful_outputs
+ANALYZE engagement_patterns
+ADAPT future_generations(based_on_performance)
+```
 
-Appears in the “Public Forge”
+**Chain Reactions:**
+```text
+Agent A outputs → triggers Agent B → influences Agent C
+(Example: News summary → generates commentary → creates meme)
+```
 
-🔄 Remixing
-Users can fork your agent to:
+---
 
-Change prompt behavior
+## 🌀 Publishing, Remixing & Updating
 
-Update voice persona
+When your agent is complete, it enters the AlgoForge ecosystem:
 
-Chain to a different output type (e.g., tweet → ad copy)
+### ✅ Publishing Process
 
-Remixes retain attribution and are traceable on-chain.
+**Deployment Steps:**
+1. **Quality Assurance** - Automated testing of all functions
+2. **Blockchain Registration** - Agent ID creation on Algorand
+3. **Community Availability** - Listed in Public Forge directory
+4. **Voice Confirmation** - All outputs include audio validation
+5. **Metadata Indexing** - Searchable by tags, creator, and functionality
 
-🔧 Updating
-You can improve your agent post-launch:
+**Visibility Options:**
+- 🌍 **Public** - Available to all AlgoForge users
+- 👥 **Community** - Shared with specific groups or collaborators
+- 🔒 **Private** - Personal use only (can be made public later)
 
-Add version notes
+### 🔄 Remixing System
 
-Link new voices
+**What Can Be Remixed:**
+- 🧠 **Prompt Behavior** (change personality, focus, or style)
+- 🎤 **Voice Persona** (different accent, tone, or energy)
+- 🔗 **Output Type** (tweet → ad copy → podcast script)
+- ⚙️ **Functionality** (add new features, remove limitations)
 
-Evolve prompt style over time
+**Remix Preservation:**
+- 🏷️ **Attribution Chain** - Every remix credits original creators
+- 🔍 **Traceable Lineage** - Full family tree visible on-chain
+- 🎯 **Diff Tracking** - Exactly what changed between versions
+- 📊 **Performance Comparison** - How remixes perform vs originals
 
-Every version stays discoverable — it's GitHub meets TikTok meets smart agents.
+**Community Collaboration:**
+- 🎭 **Role Specialization** (voice experts, prompt engineers, UX designers)
+- 🏆 **Remix Contests** (community challenges with prizes)
+- 📈 **Viral Mechanics** (successful remixes boost original agent reputation)
 
-💰 Remix Bounties & Creative Ownership
-AlgoForge is not just fun — it's a creative economy.
+### 🔧 Updating & Evolution
 
-🏆 Remix Bounties
-Creators can post bounties:
+**Version Control:**
+- 📋 **Version Notes** - Document what changed and why
+- 🔗 **Voice Updates** - Link new ElevenLabs models or custom voices
+- 🧠 **Prompt Evolution** - Refine behavior based on user feedback
+- 📊 **Performance Optimization** - Improve based on engagement data
 
-“Remix this agent into a TikTok voice challenge”
+**Backward Compatibility:**
+- 🗂️ **Every Version Discoverable** - Historical versions remain accessible
+- 🔄 **Rollback Capability** - Revert to previous versions if needed
+- 📈 **Performance Tracking** - Compare versions across all metrics
 
-“Fork this joke agent into a pitch generator for founders”
+**Community Feedback Integration:**
+- 💬 **User Comments** - Direct feedback on agent performance
+- ⭐ **Rating Systems** - Community-driven quality assessment
+- 🎯 **Feature Requests** - Users suggest improvements or new capabilities
 
-Rewards: on-chain tokens, public exposure, leaderboard points
+---
 
-🎓 Ownership & Attribution
-Every agent and remix carries immutable attribution
+## 💰 Remix Bounties & Creative Economy
 
-Smart contracts enable:
+AlgoForge is not just fun — it's a **creative economy** where talent meets opportunity.
 
-Creator royalties (coming soon)
+### 🏆 Remix Bounties
 
-Reputation scores
+**Bounty Categories:**
+- 🎵 **Voice Challenges** - "Remix this agent into a TikTok voice challenge"
+- 💼 **Business Applications** - "Fork this joke agent into a pitch generator for founders"
+- 🎨 **Creative Expansion** - "Transform this text agent into a visual storyteller"
+- 🔧 **Technical Enhancement** - "Add API integration for live data feeds"
 
-Co-creator recognition
+**Bounty Rewards:**
+- 🪙 **On-chain Tokens** - Algorand-based reward system
+- 📢 **Public Exposure** - Featured in community highlights
+- 🏅 **Leaderboard Points** - Reputation building and ranking
+- 🎯 **Direct Collaboration** - Connections with other creators
 
-Agent = IP.
-Remix = Derivative Work.
-Blockchain = Proof of Origin.
+**Bounty Mechanics:**
+- 📝 **Clear Requirements** - Specific goals and success criteria
+- ⏰ **Time Bounds** - Deadline-driven creative sprints
+- 👥 **Judging System** - Community voting + expert panels
+- 🔄 **Iteration Feedback** - Guidance during development process
 
-🚀 Try It Yourself
-👾 Clone an agent from the public feed
+### 🎓 Ownership & Attribution
 
-🎤 Add your own ElevenLabs voice
+**Intellectual Property Framework:**
+- 🏷️ **Agent = IP** - Original agents are intellectual property
+- 🔄 **Remix = Derivative Work** - Remixes are transformative creations
+- ⛓️ **Blockchain = Proof of Origin** - Immutable creation records
+- 👥 **Collaboration = Shared Ownership** - Multiple contributor recognition
 
-🔗 Mint and share your creation
+**Smart Contract Features:**
+- 💰 **Creator Royalties** (coming soon) - Automatic revenue sharing
+- 📊 **Reputation Scores** - Community-driven quality metrics
+- 🤝 **Co-creator Recognition** - Multi-party attribution systems
+- 🎯 **Usage Tracking** - Detailed analytics on agent performance
 
-🧪 Join a remix challenge or bounty
+**Future Monetization:**
+- 🎟️ **Premium Features** - Advanced capabilities for paying users
+- 📺 **Sponsored Content** - Brand partnerships and advertising
+- 🏪 **Marketplace Trading** - Buy/sell agent ownership stakes
+- 🏛️ **DAO Governance** - Community-owned platform decisions
 
-👉 Launch AlgoForge Now
+---
 
-Next up:
-👉 Creative Challenges & Bounties
+## 🚀 Advanced Agent Concepts
+
+### 🤖 Multi-Agent Systems
+
+**Agent Collaboration:**
+- 🔗 **Chain Reactions** - Agents trigger each other in sequence
+- 🎭 **Role Playing** - Multiple agents simulate conversations
+- 📊 **Specialization** - Different agents for different aspects (research, writing, voice)
+
+**Swarm Intelligence:**
+- 🐝 **Collective Creation** - Multiple agents contribute to single output
+- 🧠 **Distributed Learning** - Agents share knowledge and improve together
+- 🌐 **Network Effects** - Agent popularity boosts connected agents
+
+### 🎯 Personalization & AI Learning
+
+**Adaptive Behavior:**
+- 📈 **Performance Learning** - Agents improve based on engagement data
+- 👤 **User Preferences** - Agents adapt to individual user styles
+- 🎭 **Context Awareness** - Agents understand situational appropriateness
+
+**Personalization Features:**
+- 🎨 **Style Matching** - Agents learn user's preferred content style
+- ⏰ **Timing Optimization** - Agents post when users are most active
+- 🎯 **Content Filtering** - Agents avoid topics users dislike
+
+### 🔮 Future Capabilities
+
+**Emerging Technologies:**
+- 🎬 **Video Generation** - Full Tavus integration for visual agents
+- 🎵 **Music Creation** - AI-generated soundtracks and jingles
+- 🌐 **Real-time Data** - Live API integration for current events
+- 🤖 **Advanced AI Models** - Integration with latest language models
+
+**Platform Evolution:**
+- 📱 **Mobile Apps** - Native iOS and Android applications
+- 🎮 **Gaming Integration** - Agents as NPCs in games and virtual worlds
+- 🏛️ **Enterprise Solutions** - Business-focused agent creation tools
+- 🌍 **Multi-language Support** - Global accessibility and localization
+
+---
+
+## 🎓 Try It Yourself
+
+Ready to dive into the world of autonomous creative agents? Here's your action plan:
+
+### 👾 **Clone & Customize**
+1. Browse the [Public Forge](./public-forge) for inspiring agents
+2. Find an agent that resonates with your vision
+3. Click "Remix" to create your own version
+4. Customize the prompt, voice, and behavior
+
+### 🎤 **Add Your Voice**
+1. Sign up for [ElevenLabs](https://elevenlabs.io) (free tier available)
+2. Choose or create a custom voice
+3. Integrate your API key in Bolt.new
+4. Test different voices until you find the perfect match
+
+### 🔗 **Mint & Share**
+1. Deploy your agent to AlgoForge
+2. Mint your first creation to Algorand
+3. Share in the community Discord
+4. Watch as others remix and build on your work
+
+### 🧪 **Join Challenges**
+1. Participate in weekly remix challenges
+2. Enter bounty competitions
+3. Collaborate with other creators
+4. Build your reputation in the community
+
+### 🚀 **Scale Your Impact**
+1. Create agent families (multiple related agents)
+2. Build cross-platform integrations
+3. Develop specialized expertise (voice, prompts, UX)
+4. Mentor new creators joining the platform
+
+---
+
+## 🌟 Community & Support
+
+### 💬 **Join the Community**
+- 🎭 **Discord Server** - Real-time chat and collaboration
+- 📧 **Weekly Newsletter** - Latest features and success stories
+- 🎓 **Office Hours** - Live Q&A sessions with the team
+- 🏆 **Showcase Events** - Monthly agent demonstrations
+
+### 📚 **Learning Resources**
+- 📖 **Documentation Hub** - Comprehensive guides and tutorials
+- 🎥 **Video Tutorials** - Step-by-step walkthrough videos
+- 🧪 **Example Projects** - Open-source agent templates
+- 🤝 **Mentorship Program** - Experienced creators help newcomers
+
+### 🆘 **Getting Help**
+- 🎯 **FAQ Section** - Answers to common questions
+- 📝 **Support Tickets** - Direct help from the team
+- 🤖 **AI Assistant** - Automated help for basic questions
+- 👥 **Community Forum** - Peer-to-peer problem solving
+
+---
+
+## 🎯 Next Steps
+
+**Ready to build your creative empire?**
+
+👉 **[Launch AlgoForge Now](./get-started)**
+
+**Remember:** Every viral agent started as someone's first experiment. Your creative voice deserves to be heard, amplified, and remixed by the world.
+
+The future of creativity is collaborative, autonomous, and on-chain. Welcome to AlgoForge. 🚀
