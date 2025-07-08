@@ -52,7 +52,7 @@
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["alimov-ltd/Blog/article1", "alimov-ltd/Blog/article2"]
+            "pages": ["alimov-ltd/Blog/why-traditional-consulting-is-broken", "alimov-ltd/Blog/emotional-systems-design-scale", "alimov-ltd/Blog/6-week-product-launch-playbook", "alimov-ltd/Blog/vibe-coding-jazz-development-philosophy"]
           },
           {
             "group": "Guides",
