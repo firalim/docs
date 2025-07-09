@@ -73,7 +73,7 @@
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["algoforge/Wiki/what-is-algoforge", "algoforge/Wiki/how-agents-work", "algoforge/Wiki/voiceai-and-verification", "algoforge/Wiki/on-chain-minting", "algoforge/Wiki/build-your-first-agent", "algoforge/Socials"]
+            "pages": ["algoforge/Wiki/what-is-algoforge", "algoforge/Wiki/how-agents-work", "algoforge/Wiki/voiceai-and-verification", "algoforge/Wiki/on-chain-minting", "algoforge/Wiki/build-your-first-agent", "algoforge/Wiki/the-creative-stack-explained", "algoforge/Socials"]
           },
           {
             "group": "Blog",
@@ -83,7 +83,7 @@
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["algoforge/How-To/guide1", "algoforge/How-To/guide2"]
+            "pages": ["algoforge/How-To/how-to-submit-your-agent-to-gallery", "algoforge/How-To/how-to-build-a-multi-agent-universe"]
           }
         ]
       },
