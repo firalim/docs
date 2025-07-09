@@ -78,7 +78,7 @@
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["algoforge/Blog/the-emotional-layer-of-ai", "algoforge/Blog/how-to-build-your-own-ai-lore-universe", "algoforge/Blog/remix-economies-the-future-of-ai-generated-content-ownership"]
+            "pages": ["algoforge/Blog/the-emotional-layer-of-ai", "algoforge/Blog/how-to-build-your-own-ai-lore-universe", "algoforge/Blog/remix-economies-the-future-of-ai-generated-content-ownership", "algoforge/Blog/from-prompt-to-proof", "algoforge/Blog/the-rise-of-autonomous-creators"]
           },
           {
             "group": "Guides",
