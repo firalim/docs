@@ -32,6 +32,11 @@
         "anchor": "Home",
         "icon": "home",
         "pages": ["index"]
+      },
+      {
+        "anchor": "About Firuz",
+        "icon": "user",
+        "pages": ["about-firuz"]
       }
     ],
     "tabs": [
@@ -40,13 +45,9 @@
         "icon": "building",
         "groups": [
           {
-            "group": "Company",
-            "icon": "user",
-            "pages": [
-              "alimov-ltd/about-firuz",
-              "alimov-ltd/Overview",
-              "alimov-ltd/FAQ"
-            ]
+            "group": "Start",
+            "icon": "rocket",
+            "pages": ["alimov-ltd/Overview", "alimov-ltd/FAQ"]
           },
           {
             "group": "Wiki",
@@ -337,17 +338,17 @@
             "group": "Legal Documents",
             "icon": "file-contract",
             "pages": [
-              "legal/privacy-policy",
-              "legal/terms-of-use",
-              "legal/cookie-policy"
+              "privacy-policy",
+              "terms-of-use",
+              "cookie-policy"
             ]
           },
           {
             "group": "Contact",
             "icon": "envelope",
             "pages": [
-              "legal/contact",
-              "legal/support"
+              "contact",
+              "support"
             ]
           }
         ]
@@ -367,9 +368,17 @@
         "dropdown": "Company",
         "icon": "building",
         "pages": [
-          "alimov-ltd/about-firuz",
-          "alimov-ltd/Overview",
-          "legal/contact"
+          "about-firuz",
+          "alimov-ltd/Overview"
+        ]
+      },
+      {
+        "dropdown": "Legal",
+        "icon": "scale-balanced",
+        "pages": [
+          "privacy-policy",
+          "terms-of-use",
+          "cookie-policy"
         ]
       }
     ]
