@@ -265,7 +265,7 @@
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["tinder-finance/How-To/guide1", "tinder-finance/How-To/guide2"]
+            "pages": ["tinder-finance/How-To/how-tinder-finance-works", "tinder-finance/How-To/how-to-gamify-your-budget-using-money-mayhem-hub", "tinder-finance/How-To/how-to-roast-your-financial-mistakes", "tinder-finance/How-To/how-to-setup-your-financial-persona", "tinder-finance/How-To/how-to-earn-xp-unlock-features-and-level-up-your-wallet", "tinder-finance/How-To/how-to-create-and-share-financial-memes-that-actually-go-viral"]
           }
         ]
       }
