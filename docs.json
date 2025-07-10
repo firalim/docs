@@ -36,7 +36,7 @@
       {
         "anchor": "About Firuz",
         "icon": "user",
-        "pages": ["about-firuz/introduction"]
+        "pages": ["about-firuz"]
       }
     ],
     "tabs": [
@@ -47,46 +47,46 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["alimov-ltd/overview", "alimov-ltd-faq"]
+            "pages": ["alimov-ltd/Overview", "alimov-ltd/FAQ"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
             "pages": [
-              "alimov-ltd/wiki/performance-transformation-blueprint",
-              "alimov-ltd/wiki/enterprise-performance-transformation-framework",
-              "alimov-ltd/wiki/innovation-architecture",
-              "alimov-ltd/wiki/product-development-lifecycle",
-              "alimov-ltd/wiki/decision-intelligence-systems",
-              "alimov-ltd/wiki/cross-system-integration-and-automation",
-              "alimov-ltd/wiki/human-in-the-loop-design-strategy",
-              "alimov-ltd/socials"
+              "alimov-ltd/Wiki/performance-transformation-blueprint",
+              "alimov-ltd/Wiki/enterprise-performance-transformation-framework",
+              "alimov-ltd/Wiki/innovation-architecture",
+              "alimov-ltd/Wiki/product-development-lifecycle",
+              "alimov-ltd/Wiki/decision-intelligence-systems",
+              "alimov-ltd/Wiki/cross-system-integration-and-automation",
+              "alimov-ltd/Wiki/human-in-the-loop-design-strategy",
+              "alimov-ltd/Socials"
             ]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
             "pages": [
-              "alimov-ltd/blog/why-traditional-consulting-is-broken",
-              "alimov-ltd/blog/emotional-systems-design-scale",
-              "alimov-ltd/blog/6-week-product-launch-playbook",
-              "alimov-ltd/blog/vibe-coding-jazz-development-philosophy",
-              "alimov-ltd/blog/six-sigma-for-startups",
-              "alimov-ltd/blog/from-prompt-to-blockchain",
-              "alimov-ltd/blog/why-digital-transformation-fails"
+              "alimov-ltd/Blog/why-traditional-consulting-is-broken",
+              "alimov-ltd/Blog/emotional-systems-design-scale",
+              "alimov-ltd/Blog/6-week-product-launch-playbook",
+              "alimov-ltd/Blog/vibe-coding-jazz-development-philosophy",
+              "alimov-ltd/Blog/six-sigma-for-startups",
+              "alimov-ltd/Blog/from-prompt-to-blockchain",
+              "alimov-ltd/Blog/why-digital-transformation-fails"
             ]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
             "pages": [
-              "alimov-ltd/guides/how-to-engage-alimov-ltd-as-a-partner",
-              "alimov-ltd/guides/how-to-request-a-custom-proposal",
-              "alimov-ltd/guides/how-to-invest-in-alimov-ltd-vision",
-              "alimov-ltd/guides/how-to-join-our-investment-circle",
-              "alimov-ltd/guides/how-to-sponsor-with-alimov-ltd",
-              "alimov-ltd/guides/how-to-white-label-our-products",
-              "alimov-ltd/guides/how-to-join-as-a-strategic-advisor"
+              "alimov-ltd/How-To/how-to-engage-alimov-ltd-as-a-partner",
+              "alimov-ltd/How-To/how-to-request-a-custom-proposal",
+              "alimov-ltd/How-To/how-to-invest-in-alimov-ltd-vision",
+              "alimov-ltd/How-To/how-to-join-our-investment-circle",
+              "alimov-ltd/How-To/how-to-sponsor-with-alimov-ltd",
+              "alimov-ltd/How-To/how-to-white-label-our-products",
+              "alimov-ltd/How-To/how-to-join-as-a-strategic-advisor"
             ]
           }
         ]
@@ -98,38 +98,38 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["algoforge-overview", "algoforge-faq"]
+            "pages": ["algoforge/Overview", "algoforge/FAQ"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
             "pages": [
-              "algoforge/wiki/what-is-algoforge",
-              "algoforge/wiki/how-agents-work",
-              "algoforge/wiki/voiceai-and-verification",
-              "algoforge/wiki/on-chain-minting",
-              "algoforge/wiki/build-your-first-agent",
-              "algoforge/wiki/the-creative-stack-explained",
-              "algoforge/socials"
+              "algoforge/Wiki/what-is-algoforge",
+              "algoforge/Wiki/how-agents-work",
+              "algoforge/Wiki/voiceai-and-verification",
+              "algoforge/Wiki/on-chain-minting",
+              "algoforge/Wiki/build-your-first-agent",
+              "algoforge/Wiki/the-creative-stack-explained",
+              "algoforge/Socials"
             ]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
             "pages": [
-              "algoforge/blog/the-emotional-layer-of-ai",
-              "algoforge/blog/how-to-build-your-own-ai-lore-universe",
-              "algoforge/blog/remix-economies-the-future-of-ai-generated-content-ownership",
-              "algoforge/blog/from-prompt-to-proof",
-              "algoforge/blog/the-rise-of-autonomous-creators"
+              "algoforge/Blog/the-emotional-layer-of-ai",
+              "algoforge/Blog/how-to-build-your-own-ai-lore-universe",
+              "algoforge/Blog/remix-economies-the-future-of-ai-generated-content-ownership",
+              "algoforge/Blog/from-prompt-to-proof",
+              "algoforge/Blog/the-rise-of-autonomous-creators"
             ]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
             "pages": [
-              "algoforge/guides/how-to-submit-your-agent-to-gallery",
-              "algoforge/guides/how-to-build-a-multi-agent-universe"
+              "algoforge/How-To/how-to-submit-your-agent-to-gallery",
+              "algoforge/How-To/how-to-build-a-multi-agent-universe"
             ]
           }
         ]
@@ -141,32 +141,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["calculator-overview", "calculator-faq"]
+            "pages": ["calculator/Overview", "calculator/FAQ"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": [
-              "calculator/wiki/financial-modeling-basics",
-              "calculator/wiki/advanced-calculations",
-              "calculator/socials"
-            ]
+            "pages": ["calculator/Wiki/topic1", "calculator/Wiki/topic2", "calculator/Socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": [
-              "calculator/blog/optimizing-financial-strategies",
-              "calculator/blog/understanding-roi"
-            ]
+            "pages": ["calculator/Blog/article1", "calculator/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": [
-              "calculator/guides/how-to-use-financial-calculator",
-              "calculator/guides/customizing-your-calculations"
-            ]
+            "pages": ["calculator/How-To/guide1", "calculator/How-To/guide2"]
           }
         ]
       },
@@ -177,32 +167,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["flavor-foe-overview", "flavor-foe-faq"]
+            "pages": ["flavor-foe/Overview", "flavor-foe/FAQ"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": [
-              "flavor-foe/wiki/food-innovation",
-              "flavor-foe/wiki/taste-profiling",
-              "flavor-foe/socials"
-            ]
+            "pages": ["flavor-foe/Wiki/topic1", "flavor-foe/Wiki/topic2", "flavor-foe/Socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": [
-              "flavor-foe/blog/food-tech-trends",
-              "flavor-foe/blog/sustainable-flavors"
-            ]
+            "pages": ["flavor-foe/Blog/article1", "flavor-foe/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": [
-              "flavor-foe/guides/creating-flavor-profiles",
-              "flavor-foe/guides/partnering-with-flavor-foe"
-            ]
+            "pages": ["flavor-foe/How-To/guide1", "flavor-foe/How-To/guide2"]
           }
         ]
       },
@@ -213,32 +193,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["fractional-ownership-overview", "fractional-ownership-faq"]
+            "pages": ["fractional-ownership/Overview", "fractional-ownership/FAQ"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": [
-              "fractional-ownership/wiki/what-is-fractional-ownership",
-              "fractional-ownership/wiki/benefits-and-risks",
-              "fractional-ownership/socials"
-            ]
+            "pages": ["fractional-ownership/Wiki/topic1", "fractional-ownership/Wiki/topic2", "fractional-ownership/Socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": [
-              "fractional-ownership/blog/investing-in-real-estate",
-              "fractional-ownership/blog/fractional-ownership-trends"
-            ]
+            "pages": ["fractional-ownership/Blog/article1", "fractional-ownership/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": [
-              "fractional-ownership/guides/how-to-invest",
-              "fractional-ownership/guides/managing-your-shares"
-            ]
+            "pages": ["fractional-ownership/How-To/guide1", "fractional-ownership/How-To/guide2"]
           }
         ]
       },
@@ -249,32 +219,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["life-plan-overview", "life-plan-faq"]
+            "pages": ["life-plan/Overview", "life-plan/FAQ"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": [
-              "life-plan/wiki/planning-for-success",
-              "life-plan/wiki/goal-setting",
-              "life-plan/socials"
-            ]
+            "pages": ["life-plan/Wiki/topic1", "life-plan/Wiki/topic2", "life-plan/Socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": [
-              "life-plan/blog/achieving-life-goals",
-              "life-plan/blog/balancing-work-and-life"
-            ]
+            "pages": ["life-plan/Blog/article1", "life-plan/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": [
-              "life-plan/guides/creating-a-life-plan",
-              "life-plan/guides/staying-on-track"
-            ]
+            "pages": ["life-plan/How-To/guide1", "life-plan/How-To/guide2"]
           }
         ]
       },
@@ -285,32 +245,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["love-trust-wealth-overview", "love-trust-wealth-faq"]
+            "pages": ["love-trust-wealth/Overview", "love-trust-wealth/FAQ"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": [
-              "love-trust-wealth/wiki/wealth-building-principles",
-              "love-trust-wealth/wiki/trust-based-investing",
-              "love-trust-wealth/socials"
-            ]
+            "pages": ["love-trust-wealth/Wiki/topic1", "love-trust-wealth/Wiki/topic2", "love-trust-wealth/Socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": [
-              "love-trust-wealth/blog/ethical-investing",
-              "love-trust-wealth/blog/wealth-for-good"
-            ]
+            "pages": ["love-trust-wealth/Blog/article1", "love-trust-wealth/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": [
-              "love-trust-wealth/guides/starting-your-wealth-journey",
-              "love-trust-wealth/guides/building-trust-in-investments"
-            ]
+            "pages": ["love-trust-wealth/How-To/guide1", "love-trust-wealth/How-To/guide2"]
           }
         ]
       },
@@ -321,32 +271,22 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["sip-buddy-overview", "sip-buddy-faq"]
+            "pages": ["sip-buddy/Overview", "sip-buddy/FAQ"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": [
-              "sip-buddy/wiki/community-drinking",
-              "sip-buddy/wiki/beverage-innovation",
-              "sip-buddy/socials"
-            ]
+            "pages": ["sip-buddy/Wiki/topic1", "sip-buddy/Wiki/topic2", "sip-buddy/Socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": [
-              "sip-buddy/blog/trends-in-beverages",
-              "sip-buddy/blog/crafting-the-perfect-drink"
-            ]
+            "pages": ["sip-buddy/Blog/article1", "sip-buddy/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": [
-              "sip-buddy/guides/joining-sip-buddy",
-              "sip-buddy/guides/creating-your-drink-profile"
-            ]
+            "pages": ["sip-buddy/How-To/guide1", "sip-buddy/How-To/guide2"]
           }
         ]
       },
@@ -357,38 +297,35 @@
           {
             "group": "Start",
             "icon": "rocket",
-            "pages": ["tinder-finance-overview", "tinder-finance-faq"]
+            "pages": ["tinder-finance/Overview", "tinder-finance/FAQ"]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
             "pages": [
-              "tinder-finance/wiki/what-is-saucepoints",
-              "tinder-finance/wiki/ai-agents-your-smart-financial-companions",
-              "tinder-finance/wiki/the-gamified-money-mindset",
-              "tinder-finance/wiki/leaderboard-tiers-and-how-mayhem-league-works",
-              "tinder-finance/wiki/financial-trap-cards",
-              "tinder-finance/socials"
+              "tinder-finance/Wiki/what-is-saucepoints",
+              "tinder-finance/Wiki/ai-agents-your-smart-financial-companions",
+              "tinder-finance/Wiki/the-gamified-money-mindset",
+              "tinder-finance/Wiki/leaderboard-tiers-and-how-mayhem-league-works",
+              "tinder-finance/Wiki/financial-trap-cards",
+              "tinder-finance/Socials"
             ]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": [
-              "tinder-finance/blog/gamifying-your-finances",
-              "tinder-finance/blog/financial-memes-and-culture"
-            ]
+            "pages": ["tinder-finance/Blog/article1", "tinder-finance/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
             "pages": [
-              "tinder-finance/guides/how-tinder-finance-works",
-              "tinder-finance/guides/how-to-gamify-your-budget-using-money-mayhem-hub",
-              "tinder-finance/guides/how-to-roast-your-financial-mistakes",
-              "tinder-finance/guides/how-to-setup-your-financial-persona",
-              "tinder-finance/guides/how-to-earn-xp-unlock-features-and-level-up-your-wallet",
-              "tinder-finance/guides/how-to-create-and-share-financial-memes-that-actually-go-viral"
+              "tinder-finance/How-To/how-tinder-finance-works",
+              "tinder-finance/How-To/how-to-gamify-your-budget-using-money-mayhem-hub",
+              "tinder-finance/How-To/how-to-roast-your-financial-mistakes",
+              "tinder-finance/How-To/how-to-setup-your-financial-persona",
+              "tinder-finance/How-To/how-to-earn-xp-unlock-features-and-level-up-your-wallet",
+              "tinder-finance/How-To/how-to-create-and-share-financial-memes-that-actually-go-viral"
             ]
           }
         ]
@@ -401,17 +338,17 @@
             "group": "Legal Documents",
             "icon": "file-contract",
             "pages": [
-              "legal/privacy-policy",
-              "legal/terms-of-use",
-              "legal/cookie-policy"
+              "privacy-policy",
+              "terms-of-use",
+              "cookie-policy"
             ]
           },
           {
             "group": "Contact",
             "icon": "envelope",
             "pages": [
-              "legal/contact",
-              "legal/support"
+              "contact",
+              "support"
             ]
           }
         ]
@@ -422,26 +359,26 @@
         "dropdown": "Financial Tools",
         "icon": "calculator",
         "pages": [
-          "calculator-overview",
-          "tinder-finance-overview",
-          "love-trust-wealth-overview"
+          "calculator/Overview",
+          "tinder-finance/Overview",
+          "love-trust-wealth/Overview"
         ]
       },
       {
         "dropdown": "Company",
         "icon": "building",
         "pages": [
-          "about-firuz/introduction",
-          "alimov-ltd-overview"
+          "about-firuz",
+          "alimov-ltd/Overview"
         ]
       },
       {
         "dropdown": "Legal",
         "icon": "scale-balanced",
         "pages": [
-          "legal/privacy-policy",
-          "legal/terms-of-use",
-          "legal/cookie-policy"
+          "privacy-policy",
+          "terms-of-use",
+          "cookie-policy"
         ]
       }
     ]
