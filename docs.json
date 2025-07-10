@@ -40,28 +40,57 @@
         "icon": "building",
         "groups": [
           {
-            "group": "Start",
-            "icon": "rocket",
-            "pages": ["alimov-ltd/Overview", "alimov-ltd/FAQ"]
+            "group": "Company",
+            "icon": "user",
+            "pages": [
+              "alimov-ltd/about-firuz",
+              "alimov-ltd/Overview",
+              "alimov-ltd/FAQ"
+            ]
           },
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["alimov-ltd/Wiki/performance-transformation-blueprint", "alimov-ltd/Wiki/enterprise-performance-transformation-framework",  "alimov-ltd/Wiki/innovation-architecture", "alimov-ltd/Wiki/product-development-lifecycle", "alimov-ltd/Wiki/decision-intelligence-systems", "alimov-ltd/Wiki/product-development-lifecycle", "alimov-ltd/Wiki/cross-system-integration-and-automation", "alimov-ltd/Wiki/product-development-lifecycle", "alimov-ltd/Wiki/human-in-the-loop-design-strategy", "alimov-ltd/Socials"]
+            "pages": [
+              "alimov-ltd/Wiki/performance-transformation-blueprint",
+              "alimov-ltd/Wiki/enterprise-performance-transformation-framework",
+              "alimov-ltd/Wiki/innovation-architecture",
+              "alimov-ltd/Wiki/product-development-lifecycle",
+              "alimov-ltd/Wiki/decision-intelligence-systems",
+              "alimov-ltd/Wiki/cross-system-integration-and-automation",
+              "alimov-ltd/Wiki/human-in-the-loop-design-strategy",
+              "alimov-ltd/Socials"
+            ]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["alimov-ltd/Blog/why-traditional-consulting-is-broken", "alimov-ltd/Blog/emotional-systems-design-scale", "alimov-ltd/Blog/6-week-product-launch-playbook", "alimov-ltd/Blog/vibe-coding-jazz-development-philosophy", "alimov-ltd/Blog/six-sigma-for-startups", "alimov-ltd/Blog/from-prompt-to-blockchain", "alimov-ltd/Blog/why-digital-transformation-fails"]
+            "pages": [
+              "alimov-ltd/Blog/why-traditional-consulting-is-broken",
+              "alimov-ltd/Blog/emotional-systems-design-scale",
+              "alimov-ltd/Blog/6-week-product-launch-playbook",
+              "alimov-ltd/Blog/vibe-coding-jazz-development-philosophy",
+              "alimov-ltd/Blog/six-sigma-for-startups",
+              "alimov-ltd/Blog/from-prompt-to-blockchain",
+              "alimov-ltd/Blog/why-digital-transformation-fails"
+            ]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["alimov-ltd/How-To/how-to-engage-alimov-ltd-as-a-partner", "alimov-ltd/How-To/how-to-request-a-custom-proposal", "alimov-ltd/How-To/how-to-invest-in-alimov-ltd-vision", "alimov-ltd/How-To/how-to-join-our-investment-circle", "alimov-ltd/How-To/how-to-sponsor-with-alimov-ltd", "alimov-ltd/How-To/how-to-white-label-our-products", "alimov-ltd/How-To/how-to-join-as-a-strategic-advisor" ]
+            "pages": [
+              "alimov-ltd/How-To/how-to-engage-alimov-ltd-as-a-partner",
+              "alimov-ltd/How-To/how-to-request-a-custom-proposal",
+              "alimov-ltd/How-To/how-to-invest-in-alimov-ltd-vision",
+              "alimov-ltd/How-To/how-to-join-our-investment-circle",
+              "alimov-ltd/How-To/how-to-sponsor-with-alimov-ltd",
+              "alimov-ltd/How-To/how-to-white-label-our-products",
+              "alimov-ltd/How-To/how-to-join-as-a-strategic-advisor"
+            ]
           }
         ]
       },
-            {
+      {
         "tab": "Algoforge",
         "icon": "calculator",
         "groups": [
@@ -73,17 +102,34 @@
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["algoforge/Wiki/what-is-algoforge", "algoforge/Wiki/how-agents-work", "algoforge/Wiki/voiceai-and-verification", "algoforge/Wiki/on-chain-minting", "algoforge/Wiki/build-your-first-agent", "algoforge/Wiki/the-creative-stack-explained", "algoforge/Socials"]
+            "pages": [
+              "algoforge/Wiki/what-is-algoforge",
+              "algoforge/Wiki/how-agents-work",
+              "algoforge/Wiki/voiceai-and-verification",
+              "algoforge/Wiki/on-chain-minting",
+              "algoforge/Wiki/build-your-first-agent",
+              "algoforge/Wiki/the-creative-stack-explained",
+              "algoforge/Socials"
+            ]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["algoforge/Blog/the-emotional-layer-of-ai", "algoforge/Blog/how-to-build-your-own-ai-lore-universe", "algoforge/Blog/remix-economies-the-future-of-ai-generated-content-ownership", "algoforge/Blog/from-prompt-to-proof", "algoforge/Blog/the-rise-of-autonomous-creators"]
+            "pages": [
+              "algoforge/Blog/the-emotional-layer-of-ai",
+              "algoforge/Blog/how-to-build-your-own-ai-lore-universe",
+              "algoforge/Blog/remix-economies-the-future-of-ai-generated-content-ownership",
+              "algoforge/Blog/from-prompt-to-proof",
+              "algoforge/Blog/the-rise-of-autonomous-creators"
+            ]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["algoforge/How-To/how-to-submit-your-agent-to-gallery", "algoforge/How-To/how-to-build-a-multi-agent-universe"]
+            "pages": [
+              "algoforge/How-To/how-to-submit-your-agent-to-gallery",
+              "algoforge/How-To/how-to-build-a-multi-agent-universe"
+            ]
           }
         ]
       },
@@ -255,7 +301,14 @@
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["tinder-finance/Wiki/what-is-saucepoints", "tinder-finance/Wiki/ai-agents-your-smart-financial-companions", "tinder-finance/Wiki/the-gamified-money-mindset", "tinder-finance/Wiki/leaderboard-tiers-and-how-mayhem-league-works", "tinder-finance/Wiki/financial-trap-cards", "tinder-finance/Socials"]
+            "pages": [
+              "tinder-finance/Wiki/what-is-saucepoints",
+              "tinder-finance/Wiki/ai-agents-your-smart-financial-companions",
+              "tinder-finance/Wiki/the-gamified-money-mindset",
+              "tinder-finance/Wiki/leaderboard-tiers-and-how-mayhem-league-works",
+              "tinder-finance/Wiki/financial-trap-cards",
+              "tinder-finance/Socials"
+            ]
           },
           {
             "group": "Blog",
@@ -265,7 +318,37 @@
           {
             "group": "Guides",
             "icon": "pen-to-square",
-            "pages": ["tinder-finance/How-To/how-tinder-finance-works", "tinder-finance/How-To/how-to-gamify-your-budget-using-money-mayhem-hub", "tinder-finance/How-To/how-to-roast-your-financial-mistakes", "tinder-finance/How-To/how-to-setup-your-financial-persona", "tinder-finance/How-To/how-to-earn-xp-unlock-features-and-level-up-your-wallet", "tinder-finance/How-To/how-to-create-and-share-financial-memes-that-actually-go-viral"]
+            "pages": [
+              "tinder-finance/How-To/how-tinder-finance-works",
+              "tinder-finance/How-To/how-to-gamify-your-budget-using-money-mayhem-hub",
+              "tinder-finance/How-To/how-to-roast-your-financial-mistakes",
+              "tinder-finance/How-To/how-to-setup-your-financial-persona",
+              "tinder-finance/How-To/how-to-earn-xp-unlock-features-and-level-up-your-wallet",
+              "tinder-finance/How-To/how-to-create-and-share-financial-memes-that-actually-go-viral"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Legal",
+        "icon": "scale-balanced",
+        "groups": [
+          {
+            "group": "Legal Documents",
+            "icon": "file-contract",
+            "pages": [
+              "legal/privacy-policy",
+              "legal/terms-of-use",
+              "legal/cookie-policy"
+            ]
+          },
+          {
+            "group": "Contact",
+            "icon": "envelope",
+            "pages": [
+              "legal/contact",
+              "legal/support"
+            ]
           }
         ]
       }
@@ -278,6 +361,15 @@
           "calculator/Overview",
           "tinder-finance/Overview",
           "love-trust-wealth/Overview"
+        ]
+      },
+      {
+        "dropdown": "Company",
+        "icon": "building",
+        "pages": [
+          "alimov-ltd/about-firuz",
+          "alimov-ltd/Overview",
+          "legal/contact"
         ]
       }
     ]
