@@ -37,6 +37,11 @@
         "anchor": "About Firuz",
         "icon": "user",
         "pages": ["about-firuz"]
+      },
+      {
+        "anchor": "Legal",
+        "icon": "scale-balanced",
+        "pages": ["privacy-policy", "terms-of-use", "cookie-policy"]
       }
     ],
     "tabs": [
@@ -387,6 +392,34 @@
     "github": "https://github.com/firalim",
     "linkedin": "https://www.linkedin.com/in/firuz-alimov/",
     "x": "https://x.com/firalim"
+  },
+  "footer": {
+    "links": [
+      {
+        "group": "Company",
+        "pages": [
+          "about-firuz",
+          "contact",
+          "support"
+        ]
+      },
+      {
+        "group": "Legal",
+        "pages": [
+          "privacy-policy",
+          "terms-of-use",
+          "cookie-policy"
+        ]
+      },
+      {
+        "group": "Products",
+        "pages": [
+          "alimov-ltd/Overview",
+          "algoforge/Overview",
+          "tinder-finance/Overview"
+        ]
+      }
+    ]
   },
   "modeToggle": {
     "default": "dark"
