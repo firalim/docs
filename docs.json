@@ -397,26 +397,53 @@
     "links": [
       {
         "group": "Company",
-        "pages": [
-          "about-firuz",
-          "contact",
-          "support"
+        "items": [
+          {
+            "name": "About Firuz",
+            "url": "/about-firuz"
+          },
+          {
+            "name": "Contact",
+            "url": "/contact"
+          },
+          {
+            "name": "Support",
+            "url": "/support"
+          }
         ]
       },
       {
         "group": "Legal",
-        "pages": [
-          "privacy-policy",
-          "terms-of-use",
-          "cookie-policy"
+        "items": [
+          {
+            "name": "Privacy Policy",
+            "url": "/privacy-policy"
+          },
+          {
+            "name": "Terms of Use",
+            "url": "/terms-of-use"
+          },
+          {
+            "name": "Cookie Policy",
+            "url": "/cookie-policy"
+          }
         ]
       },
       {
         "group": "Products",
-        "pages": [
-          "alimov-ltd/Overview",
-          "algoforge/Overview",
-          "tinder-finance/Overview"
+        "items": [
+          {
+            "name": "Alimov LTD",
+            "url": "/alimov-ltd/Overview"
+          },
+          {
+            "name": "Algoforge",
+            "url": "/algoforge/Overview"
+          },
+          {
+            "name": "Tinder Finance",
+            "url": "/tinder-finance/Overview"
+          }
         ]
       }
     ]
