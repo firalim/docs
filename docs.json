@@ -393,61 +393,7 @@
     "linkedin": "https://www.linkedin.com/in/firuz-alimov/",
     "x": "https://x.com/firalim"
   },
-  "footer": {
-    "links": [
-      {
-        "group": "Company",
-        "items": [
-          {
-            "label": "About Firuz",
-            "href": "/about-firuz"
-          },
-          {
-            "label": "Contact",
-            "href": "/contact"
-          },
-          {
-            "label": "Support",
-            "href": "/support"
-          }
-        ]
-      },
-      {
-        "group": "Legal",
-        "items": [
-          {
-            "label": "Privacy Policy",
-            "href": "/privacy-policy"
-          },
-          {
-            "label": "Terms of Use",
-            "href": "/terms-of-use"
-          },
-          {
-            "label": "Cookie Policy",
-            "href": "/cookie-policy"
-          }
-        ]
-      },
-      {
-        "group": "Products",
-        "items": [
-          {
-            "label": "Alimov LTD",
-            "href": "/alimov-ltd/Overview"
-          },
-          {
-            "label": "Algoforge",
-            "href": "/algoforge/Overview"
-          },
-          {
-            "label": "Tinder Finance",
-            "href": "/tinder-finance/Overview"
-          }
-        ]
-      }
-    ]
-  },
+
   "modeToggle": {
     "default": "dark"
   }
