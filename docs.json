@@ -336,9 +336,16 @@
         ]
       },
       {
-        "tab": "Legal",
-        "icon": "scale-balanced",
+        "tab": "Company & Legal",
+        "icon": "building",
         "groups": [
+          {
+            "group": "About",
+            "icon": "user",
+            "pages": [
+              "about-firuz"
+            ]
+          },
           {
             "group": "Legal Documents",
             "icon": "file-contract",
@@ -356,34 +363,6 @@
               "support"
             ]
           }
-        ]
-      }
-    ],
-    "dropdowns": [
-      {
-        "dropdown": "Financial Tools",
-        "icon": "calculator",
-        "pages": [
-          "calculator/Overview",
-          "tinder-finance/Overview",
-          "love-trust-wealth/Overview"
-        ]
-      },
-      {
-        "dropdown": "Company",
-        "icon": "building",
-        "pages": [
-          "about-firuz",
-          "alimov-ltd/Overview"
-        ]
-      },
-      {
-        "dropdown": "Legal",
-        "icon": "scale-balanced",
-        "pages": [
-          "privacy-policy",
-          "terms-of-use",
-          "cookie-policy"
         ]
       }
     ]
