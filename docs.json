@@ -26,6 +26,58 @@
     "enabled": true,
     "placeholder": "Search Alimov LTD..."
   },
+  "seo": {
+    "indexing": "all",
+    "metatags": {
+      "charset": "UTF-8",
+      "viewport": "width=device-width, initial-scale=1.0",
+      "description": "Alimov LTD - Innovative technology solutions, AI-powered tools, and enterprise transformation services. Explore our products: Algoforge, Tinder Finance, and more.",
+      "keywords": "AI, technology consulting, enterprise transformation, blockchain, fintech, automation, innovation, digital transformation, startup solutions, business intelligence",
+      "author": "Firuz Alimov",
+      "robots": "index, follow",
+      "googlebot": "index, follow",
+      "google": "notranslate",
+      "theme-color": "#1a202c",
+      "color-scheme": "light dark",
+      "format-detection": "telephone=no",
+      "referrer": "origin",
+      "language": "en",
+      "copyright": "Copyright 2025 Alimov LTD",
+      "reply-to": "support@firuz-alimov.com",
+      "distribution": "global",
+      "coverage": "Worldwide",
+      "category": "Technology",
+      "target": "all",
+      "HandheldFriendly": "True",
+      "MobileOptimized": "320",
+      "apple-mobile-web-app-capable": "yes",
+      "apple-mobile-web-app-status-bar-style": "black-translucent",
+      "apple-mobile-web-app-title": "Alimov LTD",
+      "application-name": "Alimov LTD",
+      "msapplication-TileColor": "#1a202c",
+      "msapplication-TileImage": "/logo/AlimovLogo.jpg",
+      "og:title": "Alimov LTD - Innovative Technology Solutions & AI-Powered Tools",
+      "og:type": "website",
+      "og:url": "https://firuz-alimov.com",
+      "og:image": "https://firuz-alimov.com/logo/AlimovLogo.jpg",
+      "og:description": "Discover cutting-edge technology solutions with Alimov LTD. From AI-powered financial tools to enterprise transformation services, we're redefining innovation.",
+      "og:site_name": "Alimov LTD",
+      "og:locale": "en_US",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@firalim",
+      "twitter:creator": "@firalim",
+      "twitter:title": "Alimov LTD - Innovative Technology Solutions & AI-Powered Tools",
+      "twitter:description": "Discover cutting-edge technology solutions with Alimov LTD. From AI-powered financial tools to enterprise transformation services, we're redefining innovation.",
+      "twitter:image": "https://firuz-alimov.com/logo/AlimovLogo.jpg",
+      "twitter:image:alt": "Alimov LTD Logo - Innovation in Technology",
+      "article:author": "Firuz Alimov",
+      "article:section": "Technology",
+      "article:tag": "AI, fintech, blockchain, automation, consulting, innovation",
+      "profile:first_name": "Firuz",
+      "profile:last_name": "Alimov",
+      "profile:username": "firalim"
+    }
+  },
   "navigation": {
     "anchors": [
       {
@@ -372,7 +424,6 @@
     "linkedin": "https://www.linkedin.com/in/firuz-alimov/",
     "x": "https://x.com/firalim"
   },
-
   "modeToggle": {
     "default": "dark"
   }
