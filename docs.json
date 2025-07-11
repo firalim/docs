@@ -37,6 +37,7 @@
       "robots": "index, follow",
       "googlebot": "index, follow",
       "google": "notranslate",
+      "google-site-verification": "fS4ND3Dp5tQZ5T4-A4w_ierX6UdBSNo5WIDjEX10F4s",
       "theme-color": "#1a202c",
       "color-scheme": "light dark",
       "format-detection": "telephone=no",
@@ -58,8 +59,8 @@
       "msapplication-TileImage": "/logo/AlimovLogo.jpg",
       "og:title": "Alimov LTD - Innovative Technology Solutions & AI-Powered Tools",
       "og:type": "website",
-      "og:url": "https://firuz-alimov.com",
-      "og:image": "https://firuz-alimov.com/logo/AlimovLogo.jpg",
+      "og:url": "https://hub.firuz-alimov.com",
+      "og:image": "https://hub.firuz-alimov.com/logo/AlimovLogo.jpg",
       "og:description": "Discover cutting-edge technology solutions with Alimov LTD. From AI-powered financial tools to enterprise transformation services, we're redefining innovation.",
       "og:site_name": "Alimov LTD",
       "og:locale": "en_US",
@@ -68,7 +69,7 @@
       "twitter:creator": "@firalim",
       "twitter:title": "Alimov LTD - Innovative Technology Solutions & AI-Powered Tools",
       "twitter:description": "Discover cutting-edge technology solutions with Alimov LTD. From AI-powered financial tools to enterprise transformation services, we're redefining innovation.",
-      "twitter:image": "https://firuz-alimov.com/logo/AlimovLogo.jpg",
+      "twitter:image": "https://hub.firuz-alimov.com/logo/AlimovLogo.jpg",
       "twitter:image:alt": "Alimov LTD Logo - Innovation in Technology",
       "article:author": "Firuz Alimov",
       "article:section": "Technology",
@@ -78,6 +79,22 @@
       "profile:username": "firalim"
     }
   },
+  "head": [
+    {
+      "tag": "script",
+      "attributes": {
+        "type": "application/ld+json"
+      },
+      "content": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Alimov LTD\",\"url\":\"https://hub.firuz-alimov.com\",\"logo\":\"https://hub.firuz-alimov.com/logo/AlimovLogo.jpg\",\"description\":\"Innovative technology solutions, AI-powered tools, and enterprise transformation services\",\"founder\":{\"@type\":\"Person\",\"name\":\"Firuz Alimov\",\"url\":\"https://hub.firuz-alimov.com/about-firuz\"},\"sameAs\":[\"https://github.com/firalim\",\"https://www.linkedin.com/in/firuz-alimov/\",\"https://x.com/firalim\"],\"contactPoint\":{\"@type\":\"ContactPoint\",\"contactType\":\"customer service\",\"email\":\"support@firuz-alimov.com\"},\"address\":{\"@type\":\"PostalAddress\",\"addressCountry\":\"MY\"}}"
+    },
+    {
+      "tag": "script",
+      "attributes": {
+        "type": "application/ld+json"
+      },
+      "content": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Alimov LTD\",\"url\":\"https://hub.firuz-alimov.com\",\"description\":\"Innovative technology solutions, AI-powered tools, and enterprise transformation services\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"Alimov LTD\"},\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://hub.firuz-alimov.com/search?q={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}}"
+    }
+  ],
   "navigation": {
     "anchors": [
       {
