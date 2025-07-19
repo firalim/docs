@@ -220,7 +220,16 @@
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["calculator/Wiki/topic1", "calculator/Wiki/topic2", "calculator/Socials"]
+            "pages": ["calculator/Wiki/cap-rate-vs-clout-rate", 
+              "calculator/Wiki/what-is-financial-LARPing", 
+              "calculator/Wiki/why-every-meme-is-a-derivative",
+              "calculator/Wiki/decentralised-underwriting",
+              "calculator/Wiki/why-dscr-is-broken",
+              "calculator/Wiki/what-is-vibe-IRR",
+              "calculator/Wiki/geo-arbitrage",
+              "calculator/Wiki/wltv-cac-for-your-love-life",
+              "calculator/Wiki/the-breakup-capitalist",
+              "calculator/Socials"]
           },
           {
             "group": "Blog",

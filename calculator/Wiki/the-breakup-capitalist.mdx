@@ -1,0 +1,722 @@
+---
+title: "💔 The Breakup Capitalist: A VC's Guide to Relationship Liquidity Events"
+description: "A satirical playbook for exiting relationships with Silicon Valley efficiency. From term sheets to trauma caps, liquidate love like a venture capitalist."
+icon: "heart-crack"
+mode: "wide"
+---
+
+import { useState, useEffect } from 'react'
+import { Card, CardGroup } from '/components/Card'
+import { Tabs, Tab } from '/components/Tabs'
+import { Note } from '/components/Note'
+import { Warning } from '/components/Warning'
+import { Info } from '/components/Info'
+import { Tip } from '/components/Tip'
+import { AccordionGroup, Accordion } from '/components/Accordion'
+
+export const InteractiveChecklist = ({ items, category }) => {
+  const [checkedItems, setCheckedItems] = useState(new Array(items.length).fill(false));
+  const [completionRate, setCompletionRate] = useState(0);
+
+  useEffect(() => {
+    const completed = checkedItems.filter(Boolean).length;
+    setCompletionRate(Math.round((completed / items.length) * 100));
+  }, [checkedItems]);
+
+  const handleCheck = (index) => {
+    const newChecked = [...checkedItems];
+    newChecked[index] = !newChecked[index];
+    setCheckedItems(newChecked);
+  };
+
+  const resetAll = () => {
+    setCheckedItems(new Array(items.length).fill(false));
+  };
+
+  return (
+    <div className="my-4 p-4 bg-gray-50 rounded-lg border-2 border-gray-200">
+      <div className="flex justify-between items-center mb-3 p-2 bg-white rounded text-sm font-semibold">
+        <span>{category}: {completionRate}% Complete</span>
+        <button 
+          onClick={resetAll}
+          className="px-2 py-1 bg-red-500 text-white rounded text-xs hover:bg-red-600 transition-colors"
+        >
+          Reset
+        </button>
+      </div>
+      <div className="space-y-2">
+        {items.map((item, index) => (
+          <label 
+            key={index}
+            className={`flex items-center p-3 rounded cursor-pointer transition-colors ${
+              checkedItems[index] ? 'bg-green-100 border border-green-300' : 'bg-white border border-gray-300'
+            }`}
+          >
+            <input
+              type="checkbox"
+              checked={checkedItems[index]}
+              onChange={() => handleCheck(index)}
+              className="mr-3 scale-125"
+            />
+            <span className={`text-sm ${checkedItems[index] ? 'line-through text-gray-600' : 'text-gray-900'}`}>
+              {item}
+            </span>
+          </label>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export const BreakupCalculator = () => {
+  const [values, setValues] = useState({
+    duration: 12,
+    cohabiting: false,
+    sharedAssets: 5000,
+    mutualFriends: 8,
+    emotionalLevel: 7
+  });
+  
+  const [results, setResults] = useState({});
+  const [showResults, setShowResults] = useState(false);
+
+  useEffect(() => {
+    const complexityScore = values.duration * 0.5 +
+                           (values.cohabiting ? 15 : 0) +
+                           (values.sharedAssets / 1000) * 2 +
+                           values.mutualFriends * 0.8 +
+                           values.emotionalLevel * 1.2;
+
+    const recoveryMonths = Math.max(2, Math.round(complexityScore / 8));
+    const dramaScore = values.emotionalLevel * 10 + (values.mutualFriends * 2);
+
+    setResults({
+      complexity: Math.min(100, Math.round(complexityScore)),
+      recovery: recoveryMonths,
+      drama: Math.min(100, dramaScore)
+    });
+  }, [values]);
+
+  const updateValue = (key, value) => {
+    setValues(prev => ({ ...prev, [key]: value }));
+  };
+
+  return (
+    <div className="my-6 p-5 bg-gray-50 rounded-lg border-2 border-gray-300">
+      <h3 className="text-xl font-bold mb-4 text-center">💻 Breakup Complexity Calculator</h3>
+      
+      <div className="space-y-4 mb-6">
+        <div>
+          <label className="flex items-center justify-between text-sm font-medium mb-2">
+            <span>Relationship Duration: {values.duration} months</span>
+          </label>
+          <input
+            type="range"
+            min="1"
+            max="120"
+            value={values.duration}
+            onChange={(e) => updateValue('duration', Number(e.target.value))}
+            className="w-full"
+          />
+        </div>
+
+        <div className="flex items-center">
+          <input
+            type="checkbox"
+            checked={values.cohabiting}
+            onChange={(e) => updateValue('cohabiting', e.target.checked)}
+            className="mr-3"
+          />
+          <label className="text-sm font-medium">Living together</label>
+        </div>
+
+        <div>
+          <label className="flex items-center justify-between text-sm font-medium mb-2">
+            <span>Shared Assets: ${values.sharedAssets}</span>
+          </label>
+          <input
+            type="range"
+            min="0"
+            max="50000"
+            step="500"
+            value={values.sharedAssets}
+            onChange={(e) => updateValue('sharedAssets', Number(e.target.value))}
+            className="w-full"
+          />
+        </div>
+
+        <div>
+          <label className="flex items-center justify-between text-sm font-medium mb-2">
+            <span>Mutual Friends: {values.mutualFriends}</span>
+          </label>
+          <input
+            type="range"
+            min="0"
+            max="50"
+            value={values.mutualFriends}
+            onChange={(e) => updateValue('mutualFriends', Number(e.target.value))}
+            className="w-full"
+          />
+        </div>
+
+        <div>
+          <label className="flex items-center justify-between text-sm font-medium mb-2">
+            <span>Emotional Investment: {values.emotionalLevel}/10</span>
+          </label>
+          <input
+            type="range"
+            min="1"
+            max="10"
+            value={values.emotionalLevel}
+            onChange={(e) => updateValue('emotionalLevel', Number(e.target.value))}
+            className="w-full"
+          />
+        </div>
+      </div>
+
+      <button
+        onClick={() => setShowResults(!showResults)}
+        className="w-full py-2 px-4 bg-blue-600 text-white rounded font-semibold hover:bg-blue-700 transition-colors"
+      >
+        {showResults ? 'Hide Results' : 'Calculate Breakup Metrics'}
+      </button>
+
+      {showResults && (
+        <div className="mt-4 p-4 bg-white rounded border space-y-3">
+          <div>
+            <div className="flex justify-between text-sm font-medium mb-1">
+              <span>Complexity Score</span>
+              <span>{results.complexity}/100</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-2">
+              <div 
+                className="bg-red-500 h-2 rounded-full transition-all duration-500"
+                style={{ width: `${results.complexity}%` }}
+              ></div>
+            </div>
+          </div>
+          
+          <div>
+            <div className="flex justify-between text-sm font-medium mb-1">
+              <span>Recovery Time</span>
+              <span>{results.recovery} months</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-2">
+              <div 
+                className="bg-blue-500 h-2 rounded-full transition-all duration-500"
+                style={{ width: `${Math.min(100, (results.recovery / 24) * 100)}%` }}
+              ></div>
+            </div>
+          </div>
+          
+          <div>
+            <div className="flex justify-between text-sm font-medium mb-1">
+              <span>Drama Potential</span>
+              <span>{results.drama}/100</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-2">
+              <div 
+                className="bg-yellow-500 h-2 rounded-full transition-all duration-500"
+                style={{ width: `${results.drama}%` }}
+              ></div>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export const TimelineViewer = () => {
+  const stages = [
+    { name: 'Seed Stage', desc: 'Initial sparks and coffee dates', icon: '🌱', color: 'bg-green-500' },
+    { name: 'Series A', desc: 'Cohabitation, shared accounts', icon: '💞', color: 'bg-pink-500' },
+    { name: 'Growth Stage', desc: 'Meeting parents, joint plans', icon: '🌍', color: 'bg-blue-500' },
+    { name: 'Down Round', desc: 'Fights over trivialities', icon: '📉', color: 'bg-orange-500' },
+    { name: 'Liquidity Event', desc: 'The breakup', icon: '💔', color: 'bg-red-500' },
+    { name: 'Post-Exit', desc: 'Recovery and reinvestment', icon: '🚀', color: 'bg-purple-500' }
+  ];
+  
+  const [selected, setSelected] = useState(0);
+
+  return (
+    <div className="my-6 p-5 bg-gray-50 rounded-lg border-2 border-gray-300">
+      <h3 className="text-xl font-bold mb-4">📈 Relationship Timeline</h3>
+      
+      <div className="flex flex-wrap gap-2 mb-4">
+        {stages.map((stage, index) => (
+          <button
+            key={index}
+            onClick={() => setSelected(index)}
+            className={`px-3 py-2 rounded text-sm font-medium transition-all ${
+              selected === index
+                ? 'bg-green-600 text-white transform scale-105'
+                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+            }`}
+          >
+            {stage.icon} {stage.name}
+          </button>
+        ))}
+      </div>
+      
+      <div className="p-4 bg-white rounded border">
+        <div className="flex items-center mb-2">
+          <div className={`w-4 h-4 rounded-full ${stages[selected].color} mr-3`}></div>
+          <h4 className="font-bold text-lg">{stages[selected].name}</h4>
+        </div>
+        <p className="text-gray-700">{stages[selected].desc}</p>
+      </div>
+    </div>
+  );
+};
+
+export const FeedbackCollector = () => {
+  const [feedback, setFeedback] = useState('');
+  const [rating, setRating] = useState(5);
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = () => {
+    if (feedback.trim()) {
+      setSubmitted(true);
+      setTimeout(() => {
+        setSubmitted(false);
+        setFeedback('');
+        setRating(5);
+      }, 3000);
+    }
+  };
+
+  if (submitted) {
+    return (
+      <div className="my-6 p-5 bg-green-50 rounded-lg border-2 border-green-300 text-center">
+        <div className="text-2xl mb-2">✅</div>
+        <p className="text-green-800 font-semibold">Thanks for your feedback!</p>
+        <p className="text-green-700 text-sm">Your insights help improve the breakup process for everyone.</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="my-6 p-5 bg-gray-50 rounded-lg border-2 border-gray-300">
+      <h3 className="text-xl font-bold mb-4">📝 Share Your Breakup Experience</h3>
+      
+      <div className="mb-4">
+        <label className="block text-sm font-medium mb-2">How effective was this strategy?</label>
+        <div className="flex gap-1 mb-3">
+          {[1, 2, 3, 4, 5].map(num => (
+            <button
+              key={num}
+              onClick={() => setRating(num)}
+              className={`text-2xl transition-all ${
+                num <= rating ? 'text-yellow-500' : 'text-gray-300'
+              } hover:scale-110`}
+            >
+              ⭐
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="mb-4">
+        <label className="block text-sm font-medium mb-2">Tell us about your experience:</label>
+        <textarea
+          value={feedback}
+          onChange={(e) => setFeedback(e.target.value)}
+          placeholder="How did this breakup strategy work for you? Any lessons learned?"
+          className="w-full p-3 border border-gray-300 rounded text-sm resize-y min-h-[100px]"
+          rows="4"
+        />
+      </div>
+
+      <button
+        onClick={handleSubmit}
+        disabled={!feedback.trim()}
+        className={`w-full py-2 px-4 rounded font-semibold transition-colors ${
+          feedback.trim()
+            ? 'bg-green-600 text-white hover:bg-green-700'
+            : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+        }`}
+      >
+        Submit Feedback ({rating}/5 ⭐)
+      </button>
+    </div>
+  );
+};
+
+## 🧭 Executive Summary: Love as a Portfolio Company
+
+Relationships are startups. You're the co-founder, intimacy is your product, commitment is your runway. Most crash, but with a VC mindset, you can exit with precision and pivot to your next venture.
+
+**Key Frameworks:**
+
+- **Seed Stage**: Sparks and coffee dates
+- **Series A**: Cohabitation, shared streaming accounts
+- **Growth Stage**: Meeting parents, joint plans
+- **Down Round**: Endless fights over trivialities
+- **Liquidity Event**: The breakup
+- **Post-Exit**: Recovery and reinvestment
+
+<Warning>
+  **The Harsh Truth**: 90% of relationships fail. Pros exit with a plan.
+</Warning>
+
+<BreakupCalculator />
+
+## 📈 The Relationship Lifecycle
+
+<Tabs>
+  <Tab title="🌱 Seed Stage">
+    **Key Performance Indicators:**
+
+    - Text response time: under 2 hours
+    - Chemistry score: 8/10 or higher
+    - Mutual friends: 3 or more
+    - Date frequency: 2-3x per week
+    - Overnight stays: increasing trend
+
+    **Early Warning System:**
+
+    <InteractiveChecklist
+  category="Seed Stage Red Flags"
+  items={[
+    "Inconsistent communication patterns",
+    "Evasive about past relationships", 
+    "Misaligned core values",
+    "Financial irresponsibility signals",
+    "Different timeline expectations",
+    "Social media behavior concerns"
+  ]}
+/>
+  </Tab>
+  <Tab title="💞 Series A">
+    **Milestone Indicators:**
+
+    - Shared living space secured
+    - Joint subscription accounts
+    - Meeting immediate family
+    - Combined social activities
+    - Shared financial responsibilities
+
+    **Series A Due Diligence:**
+
+    <InteractiveChecklist
+  category="Cohabitation Readiness"
+  items={[
+    "Living habits compatibility verified",
+    "Financial transparency achieved", 
+    "Household responsibility agreement",
+    "Personal space boundaries established",
+    "Conflict resolution protocols tested",
+    "Long-term compatibility assessed"
+  ]}
+/>
+  </Tab>
+  <Tab title="📉 Down Round">
+    **Warning Indicators:**
+
+    - Communication: Down 50% or more
+    - Intimacy: Declining frequency/quality
+    - Conflicts: Increasing and unresolved
+    - Future plans: Becoming vague
+    - Individual priorities: Diverging
+
+    **Damage Control Checklist:**
+
+    <InteractiveChecklist
+  category="Relationship Recovery"
+  items={[
+    "Schedule couples therapy session",
+    "Implement communication exercises",
+    "Plan quality time together", 
+    "Address underlying issues",
+    "Set relationship goals",
+    "Consider trial separation"
+  ]}
+/>
+  </Tab>
+</Tabs>
+
+<TimelineViewer />
+
+## 🔍 Due Diligence Framework
+
+<AccordionGroup>
+  <Accordion title="💰 Financial Compatibility Assessment">
+    **Core Areas to Evaluate:**
+
+    - Spending habits and money values alignment
+    - Debt disclosure and management strategies
+    - Savings goals and investment philosophy
+    - Career earning potential and stability
+    - Emergency fund approach and risk tolerance
+
+    **Red Flags:**
+
+    - Hidden debt or financial obligations
+    - Vastly different spending priorities
+    - Lack of financial planning or goals
+    - Income instability without mitigation plan
+  </Accordion>
+  <Accordion title="🚀 Career Ambition Synchronization">
+    **Key Evaluation Points:**
+
+    - Professional trajectory and growth plans
+    - Work-life balance expectations and reality
+    - Geographic flexibility for career moves
+    - Support system for each other's ambitions
+    - Timeline for major career decisions
+
+    **Compatibility Signals:**
+
+    - Mutual career encouragement and support
+    - Flexible approach to location changes
+    - Shared understanding of work demands
+    - Balanced priority between relationship and career
+  </Accordion>
+  <Accordion title="🧠 Emotional Intelligence Metrics">
+    **Assessment Framework:**
+
+    - Conflict resolution and communication style
+    - Emotional support consistency during stress
+    - Personal growth mindset and adaptability
+    - Mental health awareness and management
+    - Empathy and understanding capabilities
+
+    **Warning Signs:**
+
+    - Inability to apologize or admit mistakes
+    - Emotional manipulation or guilt-tripping
+    - Lack of empathy for partner's perspective
+    - Resistance to feedback or personal growth
+  </Accordion>
+</AccordionGroup>
+
+## 📊 Trauma Cap Table
+
+| Stakeholder        | Equity Share | Responsibilities                            | Recovery Timeline |
+| ------------------ | ------------ | ------------------------------------------- | ----------------- |
+| **You**            | 51%          | Primary trauma processing, decision-making  | 6-12 months       |
+| **Ex-Partner**     | 30%          | Memory liquidation, closure cooperation     | 3-6 months        |
+| **Mutual Friends** | 15%          | Loyalty navigation, social circle stability | 2-4 months        |
+| **Family Support** | 4%           | Advisory guidance, emotional backup         | Ongoing           |
+
+## 📋 Breakup Term Sheet Template
+
+<Tabs>
+  <Tab title="💎 Asset Division">
+    ```markdown
+    ## TANGIBLE ASSETS CLAUSE
+    
+    **Electronics & Technology:**
+    - Original purchaser retains ownership
+    - Shared devices: buyout at 50% current market value
+    - Subscription accounts: transfer or cancel within 30 days
+    
+    **Furniture & Home Goods:**
+    - Split by financial contribution percentage  
+    - Sentimental items: original owner priority
+    - Joint purchases: fair market assessment & buyout option
+    
+    **Financial Assets:**
+    - Joint accounts: close within 60 days
+    - Shared investments: liquidate and split proportionally
+    - Outstanding debts: responsibility remains with original debtor
+    ```
+  </Tab>
+  <Tab title="🚫 Non-Compete Clauses">
+    ```markdown
+    ## SOCIAL & PERSONAL BOUNDARIES
+    
+    **Social Circle Management:**
+    - 6-month cooling-off period for mutual friends
+    - No interference with friendships or family relationships
+    - Social media: unfollow/unfriend within 30 days
+    
+    **Location & Activity Restrictions:**  
+    - Favorite restaurants/bars: alternating access schedule
+    - Gym/hobby locations: first-come basis with 2-hour buffer
+    - Social events: advance notice if both attending
+    
+    **Communication Protocol:**
+    - Emergency contact only for 90 days
+    - Asset-related communication via text/email only
+    - No romantic or intimate contact for 6 months minimum
+    ```
+  </Tab>
+  <Tab title="📞 Support Transition">
+    ```markdown
+    ## EMOTIONAL SUPPORT WIND-DOWN
+    
+    **Immediate Phase (0-30 days):**
+    - No daily check-ins or emotional support calls
+    - Emergency contact for practical matters only
+    - Mutual respect for healing space and time
+    
+    **Intermediate Phase (1-3 months):**
+    - Scheduled closure conversation (optional)
+    - Return personal belongings via neutral party
+    - Final financial/legal matter resolution
+    
+    **Long-term Phase (3+ months):**
+    - Friendship possibility assessment (both must agree)
+    - New relationship disclosure protocol (courtesy notice)
+    - Annual wellness check-in (optional)
+    ```
+  </Tab>
+</Tabs>
+
+## 🚀 Exit Strategy Frameworks
+
+<CardGroup cols={2}>
+  <Card title="🤝 Clean Exit Strategy" icon="handshake">
+    **Mutual Agreement Approach**
+
+    - Both parties acknowledge relationship end
+    - Fair and transparent asset division
+    - Respectful communication throughout process
+    - Coordinated friend group transition
+    - Professional closure conversation
+
+    **Timeline:** 2-4 weeks for full separation
+  </Card>
+  <Card title="⚡ Hostile Takeover" icon="warning">
+    **Unilateral Decision Protocol**
+
+    - One-sided breakup initiation
+    - Strong personal boundaries required
+    - Minimal negotiation on terms
+    - Rapid asset extraction and separation
+    - Legal consultation if needed
+
+    **Timeline:** 1-2 weeks for emergency exit
+  </Card>
+</CardGroup>
+
+## 🎯 Post-Breakup Recovery Strategy
+
+<Tabs>
+  <Tab title="🏥 Immediate Response (0-30 days)">
+    **Damage Assessment Phase:**
+
+    <InteractiveChecklist
+  category="Crisis Management"
+  items={[
+    "Secure separate living arrangements",
+    "Establish financial independence", 
+    "Activate support network (friends/family)",
+    "Remove triggers from environment",
+    "Schedule therapy/counseling session",
+    "Create new daily routines"
+  ]}
+/>
+
+    **Key Metrics:**
+
+    - Sleep quality: aim for 7\+ hours
+    - Nutrition: maintain 3 meals daily
+    - Exercise: 30 minutes minimum
+    - Social contact: daily friend/family check-in
+  </Tab>
+  <Tab title="📈 Growth Phase (1-6 months)">
+    **Skill Development & Networking:**
+
+    <InteractiveChecklist
+  category="Personal Development"
+  items={[
+    "Join new hobby groups or activities",
+    "Focus on career advancement opportunities", 
+    "Expand social circle with new friends",
+    "Travel or explore new experiences",
+    "Learn new skills or take courses",
+    "Volunteer for meaningful causes"
+  ]}
+/>
+
+    **Investment Areas:**
+
+    - Professional skills and certifications
+    - Physical health and fitness goals
+    - Creative pursuits and hobbies
+    - Social connections and networking
+  </Tab>
+  <Tab title="🚀 Reinvestment Phase (6+ months)">
+    **New Venture Readiness:**
+
+    <InteractiveChecklist
+  category="Dating Market Re-entry"
+  items={[
+    "Complete emotional processing of past relationship",
+    "Establish clear relationship goals and boundaries", 
+    "Build confidence through personal achievements",
+    "Create compelling personal brand/dating profile",
+    "Practice communication and social skills",
+    "Network expansion in target demographics"
+  ]}
+/>
+
+    **Success Metrics:**
+
+    - Emotional stability: consistent mood for 30\+ days
+    - Independence: thriving in single life
+    - Growth: measurable progress in key life areas
+    - Readiness: excitement about future possibilities
+  </Tab>
+</Tabs>
+
+## 🏆 Graduation: Becoming a Relationship Investor
+
+**Master Investor Qualities:**
+
+<InteractiveChecklist
+  category="Relationship Investment Skills"
+  items={[
+"Thorough due diligence before emotional investment",
+"Clear deal-breakers and non-negotiable values", 
+"Risk management and diversification strategy",
+"Exit planning integrated from relationship start",
+"Portfolio approach to dating and relationships",
+"Emotional intelligence and pattern recognition"
+]}
+/>
+
+<Tip>
+  **The Investor's Paradox**: The less you _need_ a relationship for completion, the better quality relationships you attract. Desperation is the worst investment strategy.
+</Tip>
+
+<Info>
+  **Market Dynamics**: In the relationship market, high-value partners are attracted to other high-value partners. Focus on increasing your own value before seeking investment.
+</Info>
+
+## 📊 Performance Metrics & KPIs
+
+**Relationship Health Dashboard:**
+
+- Communication Quality Score: Daily interaction satisfaction (1-10)
+- Conflict Resolution Rate: Issues resolved vs. unresolved ratio
+- Growth Alignment Index: Shared goal progress tracking
+- Support Network Strength: Friends/family relationship quality
+- Individual Development Rate: Personal goal achievement velocity
+
+**Post-Breakup Recovery Metrics:**
+
+- Emotional Stability Index: Mood consistency over time
+- Independence Score: Self-sufficiency across life areas
+- Social Integration Rate: New relationship formation speed
+- Career Momentum: Professional advancement during recovery
+- Relationship Readiness Score: Preparedness for next venture
+
+<FeedbackCollector />
+
+---
+
+## 🎯 Final Thoughts: The Art of Strategic Love
+
+Remember: relationships are high-risk, high-reward ventures. Like any startup, success requires market research, strategic planning, performance monitoring, and sometimes... knowing when to cut your losses and pivot to your next big opportunity.
+
+The best relationship investors don't fear breakups—they prepare for them. Because when you're emotionally and practically prepared for any outcome, you can invest fully in love without losing yourself in the process.
+
+**Your next unicorn relationship is waiting. Make sure you're ready to recognize it.**
+
+---
+
+_This guide is for entertainment purposes. Actual relationship advice should come from qualified professionals, not venture capitalists._
