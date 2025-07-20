@@ -93,6 +93,10 @@
         "type": "application/ld+json"
       },
       "content": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Alimov LTD\",\"url\":\"https://hub.firuz-alimov.com\",\"description\":\"Innovative technology solutions, AI-powered tools, and enterprise transformation services\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"Alimov LTD\"},\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://hub.firuz-alimov.com/search?q={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}}"
+    },
+    {
+      "tag": "script",
+      "content": "!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(\".\");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement(\"script\")).type=\"text/javascript\",p.crossOrigin=\"anonymous\",p.async=!0,p.src=s.api_host.replace(\".i.posthog.com\",\"-assets.i.posthog.com\")+\"/static/array.js\",(r=t.getElementsByTagName(\"script\")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a=\"posthog\",u.people=u.people||[],u.toString=function(t){var e=\"posthog\";return\"posthog\"!==a&&(e+=\".\"+a),t||(e+=\" (stub)\"),e},u.people.toString=function(){return u.toString(1)+\".people (stub)\"},o=\"init Ie Ts Ms Ee Es Rs capture Ge calculateEventProperties Os register register_once register_for_session unregister unregister_for_session js getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Ds Fs createPersonProfile Ls Ps opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing Cs debug I As getPageViewId captureTraceFeedback captureTraceMetric\".split(\" \"),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);posthog.init('phc_kwD1LBNVC97zx0fcWPGujYup39HPXF7wCUhGWC4yhRs',{api_host:'https://us.i.posthog.com',defaults:'2025-05-24',person_profiles:'identified_only'});"
     }
   ],
   "navigation": {
@@ -126,6 +130,8 @@
           {
             "group": "Wiki",
             "icon": "book-open",
+            "collapsible": true,
+            "collapsed": true,
             "pages": [
               "alimov-ltd/Wiki/performance-transformation-blueprint",
               "alimov-ltd/Wiki/enterprise-performance-transformation-framework",
@@ -140,6 +146,8 @@
           {
             "group": "Blog",
             "icon": "newspaper",
+            "collapsible": true,
+            "collapsed": true,
             "pages": [
               "alimov-ltd/Blog/why-traditional-consulting-is-broken",
               "alimov-ltd/Blog/emotional-systems-design-scale",
@@ -153,6 +161,8 @@
           {
             "group": "Guides",
             "icon": "pen-to-square",
+            "collapsible": true,
+            "collapsed": true,
             "pages": [
               "alimov-ltd/How-To/how-to-engage-alimov-ltd-as-a-partner",
               "alimov-ltd/How-To/how-to-request-a-custom-proposal",
@@ -177,6 +187,8 @@
           {
             "group": "Wiki",
             "icon": "book-open",
+            "collapsible": true,
+            "collapsed": true,
             "pages": [
               "algoforge/Wiki/what-is-algoforge",
               "algoforge/Wiki/how-agents-work",
@@ -190,6 +202,8 @@
           {
             "group": "Blog",
             "icon": "newspaper",
+            "collapsible": true,
+            "collapsed": true,
             "pages": [
               "algoforge/Blog/the-emotional-layer-of-ai",
               "algoforge/Blog/how-to-build-your-own-ai-lore-universe",
@@ -201,6 +215,8 @@
           {
             "group": "Guides",
             "icon": "pen-to-square",
+            "collapsible": true,
+            "collapsed": true,
             "pages": [
               "algoforge/How-To/how-to-submit-your-agent-to-gallery",
               "algoforge/How-To/how-to-build-a-multi-agent-universe"
@@ -220,28 +236,64 @@
           {
             "group": "Wiki",
             "icon": "book-open",
-            "pages": ["calculator/Wiki/cap-rate-vs-clout-rate", 
-              "calculator/Wiki/what-is-financial-LARPing", 
-              "calculator/Wiki/why-every-meme-is-a-derivative",
-              "calculator/Wiki/decentralised-underwriting",
-              "calculator/Wiki/why-dscr-is-broken",
-              "calculator/Wiki/what-is-vibe-IRR",
-              "calculator/Wiki/geo-arbitrage",
-              "calculator/Wiki/ltv-cac-for-your-love-life",
-              "calculator/Wiki/the-breakup-capitalist",
-              "calculator/Wiki/monte-carlo-simulations",
-              "calculator/Wiki/tokenize-my-ex",
-              "calculator/Wiki/dao-or-die-alone",
-              "calculator/Socials"]
+            "collapsible": true,
+            "collapsed": true,
+            "pages": [
+              {
+                "group": "Core Concepts",
+                "collapsible": true,
+                "collapsed": false,
+                "pages": [
+                  "calculator/Wiki/cap-rate-vs-clout-rate",
+                  "calculator/Wiki/what-is-financial-LARPing",
+                  "calculator/Wiki/why-every-meme-is-a-derivative"
+                ]
+              },
+              {
+                "group": "Advanced Topics",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "calculator/Wiki/decentralised-underwriting",
+                  "calculator/Wiki/why-dscr-is-broken",
+                  "calculator/Wiki/what-is-vibe-IRR",
+                  "calculator/Wiki/geo-arbitrage"
+                ]
+              },
+              {
+                "group": "Relationship Finance",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "calculator/Wiki/ltv-cac-for-your-love-life",
+                  "calculator/Wiki/the-breakup-capitalist",
+                  "calculator/Wiki/tokenize-my-ex",
+                  "calculator/Wiki/dao-or-die-alone"
+                ]
+              },
+              {
+                "group": "Technical Analysis",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "calculator/Wiki/monte-carlo-simulations"
+                ]
+              },
+              "calculator/Socials"
+            ]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["calculator/Blog/article1", "calculator/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["calculator/How-To/guide1", "calculator/How-To/guide2"]
           }
         ]
@@ -258,16 +310,22 @@
           {
             "group": "Wiki",
             "icon": "book-open",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["flavor-foe/Wiki/topic1", "flavor-foe/Wiki/topic2", "flavor-foe/Socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["flavor-foe/Blog/article1", "flavor-foe/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["flavor-foe/How-To/guide1", "flavor-foe/How-To/guide2"]
           }
         ]
@@ -284,16 +342,22 @@
           {
             "group": "Wiki",
             "icon": "book-open",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["fractional-ownership/Wiki/topic1", "fractional-ownership/Wiki/topic2", "fractional-ownership/Socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["fractional-ownership/Blog/article1", "fractional-ownership/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["fractional-ownership/How-To/guide1", "fractional-ownership/How-To/guide2"]
           }
         ]
@@ -310,16 +374,22 @@
           {
             "group": "Wiki",
             "icon": "book-open",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["life-plan/Wiki/topic1", "life-plan/Wiki/topic2", "life-plan/Socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["life-plan/Blog/article1", "life-plan/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["life-plan/How-To/guide1", "life-plan/How-To/guide2"]
           }
         ]
@@ -336,16 +406,22 @@
           {
             "group": "Wiki",
             "icon": "book-open",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["love-trust-wealth/Wiki/topic1", "love-trust-wealth/Wiki/topic2", "love-trust-wealth/Socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["love-trust-wealth/Blog/article1", "love-trust-wealth/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["love-trust-wealth/How-To/guide1", "love-trust-wealth/How-To/guide2"]
           }
         ]
@@ -362,16 +438,22 @@
           {
             "group": "Wiki",
             "icon": "book-open",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["sip-buddy/Wiki/topic1", "sip-buddy/Wiki/topic2", "sip-buddy/Socials"]
           },
           {
             "group": "Blog",
             "icon": "newspaper",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["sip-buddy/Blog/article1", "sip-buddy/Blog/article2"]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
+            "collapsible": true,
+            "collapsed": true,
             "pages": ["sip-buddy/How-To/guide1", "sip-buddy/How-To/guide2"]
           }
         ]
@@ -388,6 +470,8 @@
           {
             "group": "Wiki",
             "icon": "book-open",
+            "collapsible": true,
+            "collapsed": true,
             "pages": [
               "tinder-finance/Wiki/what-is-saucepoints",
               "tinder-finance/Wiki/ai-agents-your-smart-financial-companions",
@@ -400,11 +484,22 @@
           {
             "group": "Blog",
             "icon": "newspaper",
-            "pages": ["tinder-finance/Blog/ai-vs-your-bank-account", "tinder-finance/Blog/roast-me-im-broke","tinder-finance/Blog/broke-but-brilliant","tinder-finance/Blog/we-asked-gen-z","tinder-finance/Blog/what-happens-when-you-mix-adhd","tinder-finance/Blog/swiping-left-on-debt"]
+            "collapsible": true,
+            "collapsed": true,
+            "pages": [
+              "tinder-finance/Blog/ai-vs-your-bank-account",
+              "tinder-finance/Blog/roast-me-im-broke",
+              "tinder-finance/Blog/broke-but-brilliant",
+              "tinder-finance/Blog/we-asked-gen-z",
+              "tinder-finance/Blog/what-happens-when-you-mix-adhd",
+              "tinder-finance/Blog/swiping-left-on-debt"
+            ]
           },
           {
             "group": "Guides",
             "icon": "pen-to-square",
+            "collapsible": true,
+            "collapsed": true,
             "pages": [
               "tinder-finance/How-To/how-tinder-finance-works",
               "tinder-finance/How-To/how-to-gamify-your-budget-using-money-mayhem-hub",
