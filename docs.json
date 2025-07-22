@@ -299,7 +299,20 @@
             "icon": "pen-to-square",
             "collapsible": true,
             "collapsed": true,
-            "pages": ["calculator/How-To/how-to-turn-a-failed-startup-into-a-tax-advantaged-storytime", "calculator/How-To/guide2"]
+            "pages": [
+              "calculator/How-To/how-to-build-a-family-office-for-your-meme-coin-empire", 
+              "calculator/How-To/how-to-clone-yourself-as-an-ai-cfo-for-your-hustles", 
+              "calculator/How-To/how-to-do-an-IRR-battle-with-your-friend-at-the-BBQ", 
+              "calculator/How-To/how-to-fractionalise-your-dreams-into-tokens-and-crowdfund-your-weirdest-life", 
+              "calculator/How-To/how-to-pitch-your-startup-to-an-ai-vc-agent-you-trained", 
+              "calculator/How-To/how-to-remix-global-risk-metrics-for-your-own-countrys-chaos", 
+              "calculator/How-To/how-to-share-your-financial-conspiracy-theory-with-ai-math", 
+              "calculator/How-To/how-to-turn-a-failed-startup-into-a-tax-advantaged-storytime", 
+              "calculator/How-To/how-to-turn-a-spicy-tweet-into-a-financial-model", 
+              "calculator/How-To/how-to-turn-your-dating-app-bio-into-a-pitch-deck",
+              "calculator/How-To/how-to-use-ai-to-model-the-value-of-your-meme-portfolio",
+              "calculator/How-To/how-to-use-life-plan-calculator-to-break-the-matrix",
+              "calculator/How-To/how-to-use-remixable-calculators-for-a-fake-real-estate-deal"]
           }
         ]
       },
