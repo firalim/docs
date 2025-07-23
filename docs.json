@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
-  "name": "Alimov LTD",
+  "name": "Alimov LTD - AI Innovation Hub",
   "logo": {
     "light": "/logo/AlimovLogo.jpg",
     "dark": "/logo/AlimovLogo.jpg"
@@ -14,66 +14,72 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
+      "name": "24/7 AI Support",
       "url": "mailto:support@firuz-alimov.com"
+    },
+    {
+      "name": "Community Discord",
+      "url": "https://discord.gg/alimovltd"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Launch Dashboard",
     "url": "https://firuz-alimov.com/dashboard"
   },
   "search": {
     "enabled": true,
-    "placeholder": "Search Alimov LTD..."
+    "placeholder": "Search AI tools, guides, tutorials..."
   },
   "seo": {
     "indexing": "all",
     "metatags": {
       "charset": "UTF-8",
       "viewport": "width=device-width, initial-scale=1.0",
-      "description": "Alimov LTD - Innovative technology solutions, AI-powered tools, and enterprise transformation services. Explore our products: Algoforge, Tinder Finance, and more.",
-      "keywords": "AI, technology consulting, enterprise transformation, blockchain, fintech, automation, innovation, digital transformation, startup solutions, business intelligence",
-      "author": "Firuz Alimov",
-      "robots": "index, follow",
-      "googlebot": "index, follow",
+      "description": "Alimov LTD - Leading AI innovation platform with Algoforge agents, financial calculators, enterprise transformation tools. Build AI solutions, automate workflows, transform your business with cutting-edge technology.",
+      "keywords": "AI agents, artificial intelligence, financial calculators, enterprise transformation, blockchain automation, fintech innovation, AI-powered tools, business intelligence, digital transformation, startup solutions, automated workflows, machine learning, deep learning, AI consulting, technology innovation, SaaS platforms, API integration",
+      "author": "Firuz Alimov - AI Innovation Expert",
+      "robots": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+      "googlebot": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
       "google": "notranslate",
       "google-site-verification": "fS4ND3Dp5tQZ5T4-A4w_ierX6UdBSNo5WIDjEX10F4s",
       "theme-color": "#1a202c",
       "color-scheme": "light dark",
       "format-detection": "telephone=no",
-      "referrer": "origin",
-      "language": "en",
-      "copyright": "Copyright 2025 Alimov LTD",
+      "referrer": "origin-when-cross-origin",
+      "language": "en-US",
+      "copyright": "Copyright 2025 Alimov LTD - AI Innovation Platform",
       "reply-to": "support@firuz-alimov.com",
       "distribution": "global",
       "coverage": "Worldwide",
-      "category": "Technology",
-      "target": "all",
+      "category": "Technology, Artificial Intelligence, Financial Technology",
+      "target": "developers, entrepreneurs, enterprises, AI enthusiasts",
       "HandheldFriendly": "True",
       "MobileOptimized": "320",
       "apple-mobile-web-app-capable": "yes",
       "apple-mobile-web-app-status-bar-style": "black-translucent",
-      "apple-mobile-web-app-title": "Alimov LTD",
-      "application-name": "Alimov LTD",
+      "apple-mobile-web-app-title": "Alimov AI Hub",
+      "application-name": "Alimov AI Innovation Platform",
       "msapplication-TileColor": "#1a202c",
       "msapplication-TileImage": "/logo/AlimovLogo.jpg",
-      "og:title": "Alimov LTD - Innovative Technology Solutions & AI-Powered Tools",
+      "og:title": "Alimov LTD - AI Innovation Platform | Build Smart Agents & Financial Tools",
       "og:type": "website",
       "og:url": "https://hub.firuz-alimov.com",
       "og:image": "https://hub.firuz-alimov.com/logo/AlimovLogo.jpg",
-      "og:description": "Discover cutting-edge technology solutions with Alimov LTD. From AI-powered financial tools to enterprise transformation services, we're redefining innovation.",
-      "og:site_name": "Alimov LTD",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:description": "Transform your business with AI agents, financial calculators, and enterprise automation tools. Join thousands of developers and entrepreneurs building the future with Alimov LTD's AI platform.",
+      "og:site_name": "Alimov LTD AI Innovation Hub",
       "og:locale": "en_US",
       "twitter:card": "summary_large_image",
       "twitter:site": "@firalim",
       "twitter:creator": "@firalim",
-      "twitter:title": "Alimov LTD - Innovative Technology Solutions & AI-Powered Tools",
-      "twitter:description": "Discover cutting-edge technology solutions with Alimov LTD. From AI-powered financial tools to enterprise transformation services, we're redefining innovation.",
+      "twitter:title": "Alimov LTD - AI Innovation Platform | Build Smart Agents & Financial Tools",
+      "twitter:description": "Transform your business with AI agents, financial calculators, and enterprise automation tools. Join thousands building the future with AI.",
       "twitter:image": "https://hub.firuz-alimov.com/logo/AlimovLogo.jpg",
-      "twitter:image:alt": "Alimov LTD Logo - Innovation in Technology",
+      "twitter:image:alt": "Alimov LTD - AI Innovation Platform Logo",
       "article:author": "Firuz Alimov",
-      "article:section": "Technology",
-      "article:tag": "AI, fintech, blockchain, automation, consulting, innovation",
+      "article:section": "Technology, AI, Innovation",
+      "article:tag": "AI agents, fintech, blockchain, automation, enterprise transformation, machine learning, financial calculators, business intelligence",
       "profile:first_name": "Firuz",
       "profile:last_name": "Alimov",
       "profile:username": "firalim"
@@ -85,14 +91,21 @@
       "attributes": {
         "type": "application/ld+json"
       },
-      "content": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Alimov LTD\",\"url\":\"https://hub.firuz-alimov.com\",\"logo\":\"https://hub.firuz-alimov.com/logo/AlimovLogo.jpg\",\"description\":\"Innovative technology solutions, AI-powered tools, and enterprise transformation services\",\"founder\":{\"@type\":\"Person\",\"name\":\"Firuz Alimov\",\"url\":\"https://hub.firuz-alimov.com/about-firuz\"},\"sameAs\":[\"https://github.com/firalim\",\"https://www.linkedin.com/in/firuz-alimov/\",\"https://x.com/firalim\"],\"contactPoint\":{\"@type\":\"ContactPoint\",\"contactType\":\"customer service\",\"email\":\"support@firuz-alimov.com\"},\"address\":{\"@type\":\"PostalAddress\",\"addressCountry\":\"MY\"}}"
+      "content": "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Alimov LTD\",\"alternateName\":\"Alimov AI Innovation Hub\",\"url\":\"https://hub.firuz-alimov.com\",\"logo\":\"https://hub.firuz-alimov.com/logo/AlimovLogo.jpg\",\"description\":\"Leading AI innovation platform providing enterprise transformation, AI agents, financial calculators, and automation tools for businesses worldwide\",\"founder\":{\"@type\":\"Person\",\"name\":\"Firuz Alimov\",\"url\":\"https://hub.firuz-alimov.com/about-firuz\",\"jobTitle\":\"AI Innovation Expert & Entrepreneur\"},\"sameAs\":[\"https://github.com/firalim\",\"https://www.linkedin.com/in/firuz-alimov/\",\"https://x.com/firalim\"],\"contactPoint\":{\"@type\":\"ContactPoint\",\"contactType\":\"customer service\",\"email\":\"support@firuz-alimov.com\",\"availableLanguage\":\"English\"},\"address\":{\"@type\":\"PostalAddress\",\"addressCountry\":\"MY\"},\"offers\":{\"@type\":\"AggregateOffer\",\"offerCount\":\"8\",\"priceCurrency\":\"USD\"},\"keywords\":\"AI agents, financial calculators, enterprise transformation, automation tools, fintech innovation\"}"
     },
     {
       "tag": "script",
       "attributes": {
         "type": "application/ld+json"
       },
-      "content": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Alimov LTD\",\"url\":\"https://hub.firuz-alimov.com\",\"description\":\"Innovative technology solutions, AI-powered tools, and enterprise transformation services\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"Alimov LTD\"},\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://hub.firuz-alimov.com/search?q={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}}"
+      "content": "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Alimov LTD AI Innovation Hub\",\"url\":\"https://hub.firuz-alimov.com\",\"description\":\"Transform your business with AI agents, financial calculators, and enterprise automation tools. Documentation, tutorials, and guides for developers and entrepreneurs.\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"Alimov LTD\"},\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://hub.firuz-alimov.com/search?q={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}}"
+    },
+    {
+      "tag": "script",
+      "attributes": {
+        "type": "application/ld+json"
+      },
+      "content": "{\"@context\":\"https://schema.org\",\"@type\":\"SoftwareApplication\",\"name\":\"Algoforge AI Agent Platform\",\"applicationCategory\":\"BusinessApplication\",\"operatingSystem\":\"Web-based\",\"offers\":{\"@type\":\"Offer\",\"price\":\"0\",\"priceCurrency\":\"USD\"},\"aggregateRating\":{\"@type\":\"AggregateRating\",\"ratingValue\":\"4.8\",\"ratingCount\":\"500\"}}"
     },
     {
       "tag": "script",
@@ -102,49 +115,69 @@
   "navigation": {
     "anchors": [
       {
-        "anchor": "Home",
+        "anchor": "AI Innovation Hub",
         "icon": "home",
         "pages": ["index"]
       },
       {
-        "anchor": "About Firuz",
-        "icon": "user",
+        "anchor": "About Firuz Alimov",
+        "icon": "user-tie",
         "pages": ["about-firuz"]
       },
       {
-        "anchor": "Legal",
+        "anchor": "Legal & Compliance",
         "icon": "scale-balanced",
         "pages": ["privacy-policy", "terms-of-use", "cookie-policy"]
       }
     ],
     "tabs": [
       {
-        "tab": "Alimov Ltd",
+        "tab": "🏢 Enterprise Solutions",
         "icon": "building",
         "groups": [
           {
-            "group": "Start",
+            "group": "🚀 Getting Started",
             "icon": "rocket",
             "pages": ["alimov-ltd/Overview", "alimov-ltd/FAQ"]
           },
           {
-            "group": "Wiki",
+            "group": "📚 Knowledge Base",
             "icon": "book-open",
             "collapsible": true,
-            "collapsed": true,
+            "collapsed": false,
             "pages": [
-              "alimov-ltd/Wiki/performance-transformation-blueprint",
-              "alimov-ltd/Wiki/enterprise-performance-transformation-framework",
-              "alimov-ltd/Wiki/innovation-architecture",
-              "alimov-ltd/Wiki/product-development-lifecycle",
-              "alimov-ltd/Wiki/decision-intelligence-systems",
-              "alimov-ltd/Wiki/cross-system-integration-and-automation",
-              "alimov-ltd/Wiki/human-in-the-loop-design-strategy",
-              "alimov-ltd/Socials"
+              {
+                "group": "🎯 Core Frameworks",
+                "collapsible": true,
+                "collapsed": false,
+                "pages": [
+                  "alimov-ltd/Wiki/performance-transformation-blueprint",
+                  "alimov-ltd/Wiki/enterprise-performance-transformation-framework",
+                  "alimov-ltd/Wiki/innovation-architecture"
+                ]
+              },
+              {
+                "group": "🔧 Product Development",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "alimov-ltd/Wiki/product-development-lifecycle",
+                  "alimov-ltd/Wiki/decision-intelligence-systems",
+                  "alimov-ltd/Wiki/human-in-the-loop-design-strategy"
+                ]
+              },
+              {
+                "group": "⚡ Integration & Automation",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "alimov-ltd/Wiki/cross-system-integration-and-automation"
+                ]
+              }
             ]
           },
           {
-            "group": "Blog",
+            "group": "📝 Industry Insights",
             "icon": "newspaper",
             "collapsible": true,
             "collapsed": true,
@@ -159,8 +192,8 @@
             ]
           },
           {
-            "group": "Guides",
-            "icon": "pen-to-square",
+            "group": "🤝 Partnership Guides",
+            "icon": "handshake",
             "collapsible": true,
             "collapsed": true,
             "pages": [
@@ -172,36 +205,68 @@
               "alimov-ltd/How-To/how-to-white-label-our-products",
               "alimov-ltd/How-To/how-to-join-as-a-strategic-advisor"
             ]
+          },
+          {
+            "group": "🌐 Connect With Us",
+            "icon": "globe",
+            "pages": ["alimov-ltd/Socials"]
           }
         ]
       },
       {
-        "tab": "Algoforge",
-        "icon": "calculator",
+        "tab": "🤖 AI Agent Platform",
+        "icon": "robot",
         "groups": [
           {
-            "group": "Start",
+            "group": "🚀 Quick Start",
             "icon": "rocket",
             "pages": ["algoforge/Overview", "algoforge/FAQ"]
           },
           {
-            "group": "Wiki",
-            "icon": "book-open",
+            "group": "📚 Agent Academy",
+            "icon": "graduation-cap",
             "collapsible": true,
-            "collapsed": true,
+            "collapsed": false,
             "pages": [
-              "algoforge/Wiki/what-is-algoforge",
-              "algoforge/Wiki/how-agents-work",
-              "algoforge/Wiki/voiceai-and-verification",
-              "algoforge/Wiki/on-chain-minting",
-              "algoforge/Wiki/build-your-first-agent",
-              "algoforge/Wiki/the-creative-stack-explained",
-              "algoforge/Socials"
+              {
+                "group": "🎯 Core Concepts",
+                "collapsible": true,
+                "collapsed": false,
+                "pages": [
+                  "algoforge/Wiki/what-is-algoforge",
+                  "algoforge/Wiki/how-agents-work",
+                  "algoforge/Wiki/build-your-first-agent"
+                ]
+              },
+              {
+                "group": "🎤 Voice & Verification",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "algoforge/Wiki/voiceai-and-verification"
+                ]
+              },
+              {
+                "group": "⛓️ Blockchain Integration",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "algoforge/Wiki/on-chain-minting"
+                ]
+              },
+              {
+                "group": "🎨 Creative Stack",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "algoforge/Wiki/the-creative-stack-explained"
+                ]
+              }
             ]
           },
           {
-            "group": "Blog",
-            "icon": "newspaper",
+            "group": "💡 AI Innovation Blog",
+            "icon": "lightbulb",
             "collapsible": true,
             "collapsed": true,
             "pages": [
@@ -213,34 +278,39 @@
             ]
           },
           {
-            "group": "Guides",
-            "icon": "pen-to-square",
+            "group": "🛠️ Builder Tutorials",
+            "icon": "wrench",
             "collapsible": true,
             "collapsed": true,
             "pages": [
               "algoforge/How-To/how-to-submit-your-agent-to-gallery",
               "algoforge/How-To/how-to-build-a-multi-agent-universe"
             ]
+          },
+          {
+            "group": "🌐 Community Hub",
+            "icon": "users",
+            "pages": ["algoforge/Socials"]
           }
         ]
       },
       {
-        "tab": "Calculator",
+        "tab": "💰 Financial AI Tools",
         "icon": "calculator",
         "groups": [
           {
-            "group": "Start",
+            "group": "🚀 Quick Start",
             "icon": "rocket",
             "pages": ["calculator/Overview", "calculator/FAQ"]
           },
           {
-            "group": "Wiki",
+            "group": "📚 Financial Knowledge Base",
             "icon": "book-open",
             "collapsible": true,
-            "collapsed": true,
+            "collapsed": false,
             "pages": [
               {
-                "group": "Core Concepts",
+                "group": "🎯 Core Financial Concepts",
                 "collapsible": true,
                 "collapsed": false,
                 "pages": [
@@ -251,7 +321,7 @@
                 ]
               },
               {
-                "group": "Advanced Topics",
+                "group": "🔥 Advanced Finance Tactics",
                 "collapsible": true,
                 "collapsed": true,
                 "pages": [
@@ -263,7 +333,7 @@
                 ]
               },
               {
-                "group": "Relationship Finance",
+                "group": "💕 Relationship Finance",
                 "collapsible": true,
                 "collapsed": true,
                 "pages": [
@@ -277,26 +347,36 @@
                 ]
               },
               {
-                "group": "Technical Analysis",
+                "group": "📊 Technical Analysis Tools",
                 "collapsible": true,
                 "collapsed": true,
                 "pages": [
                   "calculator/Wiki/monte-carlo-simulations"
                 ]
-              },
-              "calculator/Socials"
+              }
             ]
           },
           {
-            "group": "Blog",
-            "icon": "newspaper",
+            "group": "📈 Finance Innovation Blog",
+            "icon": "trending-up",
             "collapsible": true,
             "collapsed": true,
-            "pages": ["calculator/Blog/article1", "calculator/Blog/article2"]
+            "pages": [
+              "calculator/Blog/digital-nation-building-how-to-use-algoforge-for-micronation-economies", 
+              "calculator/Blog/from-conspiracy-to-forecast",
+              "calculator/Blog/how-to-predict-the-next-financial-crisis-for-not-for-profit",
+              "calculator/Blog/how-to-train-an-ai-that-keeps-you-financially-sane",
+              "calculator/Blog/how-to-use-financial-simulators-to-escape-your-country",
+              "calculator/Blog/teaching-gen-z-finance-with-emojis-agents-and-absurdity",
+              "calculator/Blog/the-ai-cfo-handbook-for-creators-hustlers-and-side-questers",
+              "calculator/Blog/the-chaos-creators-guide-to-weaponizing-financial-models",
+              "calculator/Blog/the-guide-to-building-wealth-without-a-bank-boss-or-budget-app",
+              "calculator/Blog/what-would-a-financial-system-built-by-artists-look-like"
+            ]
           },
           {
-            "group": "Guides",
-            "icon": "pen-to-square",
+            "group": "🎯 Practical Tutorials",
+            "icon": "target",
             "collapsible": true,
             "collapsed": true,
             "pages": [
@@ -312,261 +392,345 @@
               "calculator/How-To/how-to-turn-your-dating-app-bio-into-a-pitch-deck",
               "calculator/How-To/how-to-use-ai-to-model-the-value-of-your-meme-portfolio",
               "calculator/How-To/how-to-use-life-plan-calculator-to-break-the-matrix",
-              "calculator/How-To/how-to-use-remixable-calculators-for-a-fake-real-estate-deal"]
+              "calculator/How-To/how-to-use-remixable-calculators-for-a-fake-real-estate-deal"
+            ]
+          },
+          {
+            "group": "🌐 Finance Community",
+            "icon": "chart-line",
+            "pages": ["calculator/Socials"]
           }
         ]
       },
       {
-        "tab": "Flavor Foe",
+        "tab": "🍽️ Flavor Intelligence",
         "icon": "utensils",
         "groups": [
           {
-            "group": "Start",
+            "group": "🚀 Taste Discovery",
             "icon": "rocket",
             "pages": ["flavor-foe/Overview", "flavor-foe/FAQ"]
           },
           {
-            "group": "Wiki",
+            "group": "📚 Flavor Science",
+            "icon": "flask",
+            "collapsible": true,
+            "collapsed": false,
+            "pages": [
+              {
+                "group": "🧬 Core Concepts",
+                "collapsible": true,
+                "collapsed": false,
+                "pages": [
+                  "flavor-foe/Wiki/topic1", 
+                  "flavor-foe/Wiki/topic2"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "👨‍🍳 Culinary Innovation",
+            "icon": "chef-hat",
+            "collapsible": true,
+            "collapsed": true,
+            "pages": [
+              "flavor-foe/Blog/article1", 
+              "flavor-foe/Blog/article2"
+            ]
+          },
+          {
+            "group": "🍳 Recipe Mastery",
             "icon": "book-open",
             "collapsible": true,
             "collapsed": true,
-            "pages": ["flavor-foe/Wiki/topic1", "flavor-foe/Wiki/topic2", "flavor-foe/Socials"]
+            "pages": [
+              "flavor-foe/How-To/guide1", 
+              "flavor-foe/How-To/guide2"
+            ]
           },
           {
-            "group": "Blog",
-            "icon": "newspaper",
-            "collapsible": true,
-            "collapsed": true,
-            "pages": ["flavor-foe/Blog/article1", "flavor-foe/Blog/article2"]
-          },
-          {
-            "group": "Guides",
-            "icon": "pen-to-square",
-            "collapsible": true,
-            "collapsed": true,
-            "pages": ["flavor-foe/How-To/guide1", "flavor-foe/How-To/guide2"]
+            "group": "🌐 Food Community",
+            "icon": "users",
+            "pages": ["flavor-foe/Socials"]
           }
         ]
       },
       {
-        "tab": "Fractional Ownership",
+        "tab": "🏠 Smart Property",
         "icon": "house",
         "groups": [
           {
-            "group": "Start",
+            "group": "🚀 Property Innovation",
             "icon": "rocket",
             "pages": ["fractional-ownership/Overview", "fractional-ownership/FAQ"]
           },
           {
-            "group": "Wiki",
-            "icon": "book-open",
+            "group": "📚 Real Estate Intelligence",
+            "icon": "building-columns",
             "collapsible": true,
-            "collapsed": true,
-            "pages": ["fractional-ownership/Wiki/topic1", "fractional-ownership/Wiki/topic2", "fractional-ownership/Socials"]
+            "collapsed": false,
+            "pages": [
+              {
+                "group": "🎯 Investment Strategies",
+                "collapsible": true,
+                "collapsed": false,
+                "pages": [
+                  "fractional-ownership/Wiki/topic1", 
+                  "fractional-ownership/Wiki/topic2"
+                ]
+              }
+            ]
           },
           {
-            "group": "Blog",
-            "icon": "newspaper",
+            "group": "📈 Market Insights",
+            "icon": "chart-bar",
             "collapsible": true,
             "collapsed": true,
-            "pages": ["fractional-ownership/Blog/article1", "fractional-ownership/Blog/article2"]
+            "pages": [
+              "fractional-ownership/Blog/article1", 
+              "fractional-ownership/Blog/article2"
+            ]
           },
           {
-            "group": "Guides",
-            "icon": "pen-to-square",
+            "group": "🎯 Investment Guides",
+            "icon": "bullseye",
             "collapsible": true,
             "collapsed": true,
-            "pages": ["fractional-ownership/How-To/guide1", "fractional-ownership/How-To/guide2"]
+            "pages": [
+              "fractional-ownership/How-To/guide1", 
+              "fractional-ownership/How-To/guide2"
+            ]
+          },
+          {
+            "group": "🌐 Investor Network",
+            "icon": "network-wired",
+            "pages": ["fractional-ownership/Socials"]
           }
         ]
       },
       {
-        "tab": "Life Plan",
+        "tab": "🎯 Life Planning AI",
         "icon": "list-check",
         "groups": [
           {
-            "group": "Start",
+            "group": "🚀 Life Optimization",
             "icon": "rocket",
             "pages": ["life-plan/Overview", "life-plan/FAQ"]
           },
           {
-            "group": "Wiki",
-            "icon": "book-open",
+            "group": "📚 Personal Development",
+            "icon": "user-graduate",
             "collapsible": true,
-            "collapsed": true,
-            "pages": ["life-plan/Wiki/topic1", "life-plan/Wiki/topic2", "life-plan/Socials"]
+            "collapsed": false,
+            "pages": [
+              {
+                "group": "🎯 Goal Setting Framework",
+                "collapsible": true,
+                "collapsed": false,
+                "pages": [
+                  "life-plan/Wiki/topic1", 
+                  "life-plan/Wiki/topic2"
+                ]
+              }
+            ]
           },
           {
-            "group": "Blog",
-            "icon": "newspaper",
+            "group": "💡 Life Hacking Blog",
+            "icon": "lightbulb",
             "collapsible": true,
             "collapsed": true,
-            "pages": ["life-plan/Blog/article1", "life-plan/Blog/article2"]
+            "pages": [
+              "life-plan/Blog/article1", 
+              "life-plan/Blog/article2"
+            ]
           },
           {
-            "group": "Guides",
-            "icon": "pen-to-square",
+            "group": "📋 Planning Tutorials",
+            "icon": "clipboard-list",
             "collapsible": true,
             "collapsed": true,
-            "pages": ["life-plan/How-To/guide1", "life-plan/How-To/guide2"]
+            "pages": [
+              "life-plan/How-To/guide1", 
+              "life-plan/How-To/guide2"
+            ]
+          },
+          {
+            "group": "🌐 Life Planners Community",
+            "icon": "users",
+            "pages": ["life-plan/Socials"]
           }
         ]
       },
       {
-        "tab": "Love & Trust Wealth",
+        "tab": "💕 Relationship Wealth",
         "icon": "heart",
         "groups": [
           {
-            "group": "Start",
+            "group": "🚀 Love & Trust Hub",
             "icon": "rocket",
             "pages": ["love-trust-wealth/Overview", "love-trust-wealth/FAQ"]
           },
           {
-            "group": "Wiki",
-            "icon": "book-open",
+            "group": "📚 Relationship Intelligence",
+            "icon": "brain",
             "collapsible": true,
-            "collapsed": true,
-            "pages": ["love-trust-wealth/Wiki/topic1", "love-trust-wealth/Wiki/topic2", "love-trust-wealth/Socials"]
+            "collapsed": false,
+            "pages": [
+              {
+                "group": "💝 Core Principles",
+                "collapsible": true,
+                "collapsed": false,
+                "pages": [
+                  "love-trust-wealth/Wiki/topic1", 
+                  "love-trust-wealth/Wiki/topic2"
+                ]
+              }
+            ]
           },
           {
-            "group": "Blog",
-            "icon": "newspaper",
+            "group": "💌 Relationship Insights",
+            "icon": "heart-pulse",
             "collapsible": true,
             "collapsed": true,
-            "pages": ["love-trust-wealth/Blog/article1", "love-trust-wealth/Blog/article2"]
+            "pages": [
+              "love-trust-wealth/Blog/article1", 
+              "love-trust-wealth/Blog/article2"
+            ]
           },
           {
-            "group": "Guides",
-            "icon": "pen-to-square",
+            "group": "🎯 Connection Guides",
+            "icon": "link",
             "collapsible": true,
             "collapsed": true,
-            "pages": ["love-trust-wealth/How-To/guide1", "love-trust-wealth/How-To/guide2"]
+            "pages": [
+              "love-trust-wealth/How-To/guide1", 
+              "love-trust-wealth/How-To/guide2"
+            ]
+          },
+          {
+            "group": "🌐 Love Community",
+            "icon": "heart-handshake",
+            "pages": ["love-trust-wealth/Socials"]
           }
         ]
       },
       {
-        "tab": "Sip Buddy",
+        "tab": "☕ Smart Beverage",
         "icon": "mug-hot",
         "groups": [
           {
-            "group": "Start",
+            "group": "🚀 Sip Intelligence",
             "icon": "rocket",
             "pages": ["sip-buddy/Overview", "sip-buddy/FAQ"]
           },
           {
-            "group": "Wiki",
-            "icon": "book-open",
+          "group": "📚 Beverage Science",
+            "icon": "beaker",
             "collapsible": true,
-            "collapsed": true,
-            "pages": ["sip-buddy/Wiki/topic1", "sip-buddy/Wiki/topic2", "sip-buddy/Socials"]
-          },
-          {
-            "group": "Blog",
-            "icon": "newspaper",
-            "collapsible": true,
-            "collapsed": true,
-            "pages": ["sip-buddy/Blog/article1", "sip-buddy/Blog/article2"]
-          },
-          {
-            "group": "Guides",
-            "icon": "pen-to-square",
-            "collapsible": true,
-            "collapsed": true,
-            "pages": ["sip-buddy/How-To/guide1", "sip-buddy/How-To/guide2"]
-          }
-        ]
-      },
-      {
-        "tab": "Tinder Finance",
-        "icon": "fire",
-        "groups": [
-          {
-            "group": "Start",
-            "icon": "rocket",
-            "pages": ["tinder-finance/Overview", "tinder-finance/FAQ"]
-          },
-          {
-            "group": "Wiki",
-            "icon": "book-open",
-            "collapsible": true,
-            "collapsed": true,
+            "collapsed": false,
             "pages": [
-              "tinder-finance/Wiki/what-is-saucepoints",
-              "tinder-finance/Wiki/ai-agents-your-smart-financial-companions",
-              "tinder-finance/Wiki/the-gamified-money-mindset",
-              "tinder-finance/Wiki/leaderboard-tiers-and-how-mayhem-league-works",
-              "tinder-finance/Wiki/financial-trap-cards",
-              "tinder-finance/Socials"
+              {
+                "group": "☕ Coffee & Tea Mastery",
+                "collapsible": true,
+                "collapsed": false,
+                "pages": [
+                  "sip-buddy/Wiki/coffee-brewing-science", 
+                  "sip-buddy/Wiki/tea-ceremony-optimization"
+                ]
+              },
+              {
+                "group": "🥤 Smart Hydration",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "sip-buddy/Wiki/hydration-algorithms",
+                  "sip-buddy/Wiki/electrolyte-balance-ai"
+                ]
+              }
             ]
           },
           {
-            "group": "Blog",
-            "icon": "newspaper",
+            "group": "🧪 Beverage Innovation",
+            "icon": "flask",
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "tinder-finance/Blog/ai-vs-your-bank-account",
-              "tinder-finance/Blog/roast-me-im-broke",
-              "tinder-finance/Blog/broke-but-brilliant",
-              "tinder-finance/Blog/we-asked-gen-z",
-              "tinder-finance/Blog/what-happens-when-you-mix-adhd",
-              "tinder-finance/Blog/swiping-left-on-debt"
+              "sip-buddy/Blog/ai-powered-barista-future", 
+              "sip-buddy/Blog/molecular-mixology-meets-machine-learning"
             ]
           },
           {
-            "group": "Guides",
-            "icon": "pen-to-square",
+            "group": "🍹 Recipe Creation",
+            "icon": "cocktail",
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "tinder-finance/How-To/how-tinder-finance-works",
-              "tinder-finance/How-To/how-to-gamify-your-budget-using-money-mayhem-hub",
-              "tinder-finance/How-To/how-to-roast-your-financial-mistakes",
-              "tinder-finance/How-To/how-to-setup-your-financial-persona",
-              "tinder-finance/How-To/how-to-earn-xp-unlock-features-and-level-up-your-wallet",
-              "tinder-finance/How-To/how-to-create-and-share-financial-memes-that-actually-go-viral"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Company & Legal",
-        "icon": "building",
-        "groups": [
-          {
-            "group": "About",
-            "icon": "user",
-            "pages": [
-              "about-firuz"
+              "sip-buddy/How-To/create-perfect-morning-routine", 
+              "sip-buddy/How-To/optimize-caffeine-intake-ai"
             ]
           },
           {
-            "group": "Legal Documents",
-            "icon": "file-contract",
-            "pages": [
-              "privacy-policy",
-              "terms-of-use",
-              "cookie-policy"
-            ]
-          },
-          {
-            "group": "Contact",
-            "icon": "envelope",
-            "pages": [
-              "contact",
-              "support"
-            ]
+            "group": "🌐 Beverage Community",
+            "icon": "users",
+            "pages": ["sip-buddy/Socials"]
           }
         ]
       }
     ]
   },
+  "tabs": [
+    "alimov-ltd/Overview",
+    "algoforge/Overview", 
+    "calculator/Overview",
+    "flavor-foe/Overview",
+    "fractional-ownership/Overview",
+    "life-plan/Overview",
+    "love-trust-wealth/Overview",
+    "sip-buddy/Overview"
+  ],
+  "api": {
+    "baseUrl": "https://api.firuz-alimov.com",
+    "auth": {
+      "method": "bearer"
+    },
+    "playground": {
+      "mode": "show"
+    }
+  },
+  "openapi": "/openapi.json",
+  "analytics": {
+    "posthog": {
+      "apiKey": "phc_kwD1LBNVC97zx0fcWPGujYup39HPXF7wCUhGWC4yhRs",
+      "apiHost": "https://us.i.posthog.com"
+    },
+    "gtag": {
+      "measurementId": "G-XXXXXXXXXX"
+    }
+  },
+  "integrations": {
+    "crisp": "ae5b5e0e-8d5f-4b2a-9c3d-1f4e5g6h7i8j",
+    "intercom": "app_id_12345"
+  },
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true,
+    "thumbsRating": true
+  },
+  "redirects": [
+    {
+      "source": "/old-path",
+      "destination": "/new-path"
+    }
+  ],
   "footerSocials": {
+    "twitter": "https://x.com/firalim",
     "github": "https://github.com/firalim",
     "linkedin": "https://www.linkedin.com/in/firuz-alimov/",
-    "x": "https://x.com/firalim"
+    "discord": "https://discord.gg/alimovltd"
   },
+  "backgroundImage": "/images/background.png",
   "modeToggle": {
-    "default": "dark"
+    "default": "dark",
+    "isHidden": false
   }
 }
