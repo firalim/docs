@@ -182,13 +182,34 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "alimov-ltd/Blog/why-traditional-consulting-is-broken",
-              "alimov-ltd/Blog/emotional-systems-design-scale",
-              "alimov-ltd/Blog/6-week-product-launch-playbook",
-              "alimov-ltd/Blog/vibe-coding-jazz-development-philosophy",
-              "alimov-ltd/Blog/six-sigma-for-startups",
-              "alimov-ltd/Blog/from-prompt-to-blockchain",
-              "alimov-ltd/Blog/why-digital-transformation-fails"
+              {
+                "group": "🌟 Vision & Strategy",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "alimov-ltd/Blog/why-traditional-consulting-is-broken",
+                  "alimov-ltd/Blog/why-digital-transformation-fails"
+                ]
+              },
+              {
+                "group": "🚀 Innovation Playbooks",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "alimov-ltd/Blog/6-week-product-launch-playbook",
+                  "alimov-ltd/Blog/six-sigma-for-startups"
+                ]
+              },
+              {
+                "group": "🎨 Creative Perspectives",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "alimov-ltd/Blog/emotional-systems-design-scale",
+                  "alimov-ltd/Blog/vibe-coding-jazz-development-philosophy",
+                  "alimov-ltd/Blog/from-prompt-to-blockchain"
+                ]
+              }
             ]
           },
           {
@@ -197,13 +218,34 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "alimov-ltd/How-To/how-to-engage-alimov-ltd-as-a-partner",
-              "alimov-ltd/How-To/how-to-request-a-custom-proposal",
-              "alimov-ltd/How-To/how-to-invest-in-alimov-ltd-vision",
-              "alimov-ltd/How-To/how-to-join-our-investment-circle",
-              "alimov-ltd/How-To/how-to-sponsor-with-alimov-ltd",
-              "alimov-ltd/How-To/how-to-white-label-our-products",
-              "alimov-ltd/How-To/how-to-join-as-a-strategic-advisor"
+              {
+                "group": "🌍 Strategic Alliances",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "alimov-ltd/How-To/how-to-engage-alimov-ltd-as-a-partner",
+                  "alimov-ltd/How-To/how-to-request-a-custom-proposal",
+                  "alimov-ltd/How-To/how-to-join-as-a-strategic-advisor"
+                ]
+              },
+              {
+                "group": "💰 Investment Opportunities",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "alimov-ltd/How-To/how-to-invest-in-alimov-ltd-vision",
+                  "alimov-ltd/How-To/how-to-join-our-investment-circle"
+                ]
+              },
+              {
+                "group": "🤝 Collaboration Models",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "alimov-ltd/How-To/how-to-sponsor-with-alimov-ltd",
+                  "alimov-ltd/How-To/how-to-white-label-our-products"
+                ]
+              }
             ]
           },
           {
@@ -270,11 +312,32 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "algoforge/Blog/the-emotional-layer-of-ai",
-              "algoforge/Blog/how-to-build-your-own-ai-lore-universe",
-              "algoforge/Blog/remix-economies-the-future-of-ai-generated-content-ownership",
-              "algoforge/Blog/from-prompt-to-proof",
-              "algoforge/Blog/the-rise-of-autonomous-creators"
+              {
+                "group": "🌟 AI Vision",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "algoforge/Blog/the-emotional-layer-of-ai",
+                  "algoforge/Blog/the-rise-of-autonomous-creators"
+                ]
+              },
+              {
+                "group": "🎨 Creative AI",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "algoforge/Blog/how-to-build-your-own-ai-lore-universe",
+                  "algoforge/Blog/remix-economies-the-future-of-ai-generated-content-ownership"
+                ]
+              },
+              {
+                "group": "🚀 AI Innovation",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "algoforge/Blog/from-prompt-to-proof"
+                ]
+              }
             ]
           },
           {
@@ -283,8 +346,15 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "algoforge/How-To/how-to-submit-your-agent-to-gallery",
-              "algoforge/How-To/how-to-build-a-multi-agent-universe"
+              {
+                "group": "🧑‍💻 Build & Share",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "algoforge/How-To/how-to-submit-your-agent-to-gallery",
+                  "algoforge/How-To/how-to-build-a-multi-agent-universe"
+                ]
+              }
             ]
           },
           {
@@ -362,16 +432,37 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "calculator/Blog/digital-nation-building-how-to-use-algoforge-for-micronation-economies",
-              "calculator/Blog/from-conspiracy-to-forecast",
-              "calculator/Blog/how-to-predict-the-next-financial-crisis-for-not-for-profit",
-              "calculator/Blog/how-to-train-an-ai-that-keeps-you-financially-sane",
-              "calculator/Blog/how-to-use-financial-simulators-to-escape-your-country",
-              "calculator/Blog/teaching-gen-z-finance-with-emojis-agents-and-absurdity",
-              "calculator/Blog/the-ai-cfo-handbook-for-creators-hustlers-and-side-questers",
-              "calculator/Blog/the-chaos-creators-guide-to-weaponizing-financial-models",
-              "calculator/Blog/the-guide-to-building-wealth-without-a-bank-boss-or-budget-app",
-              "calculator/Blog/what-would-a-financial-system-built-by-artists-look-like"
+              {
+                "group": "🌟 Financial Vision",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "calculator/Blog/digital-nation-building-how-to-use-algoforge-for-micronation-economies",
+                  "calculator/Blog/how-to-predict-the-next-financial-crisis-for-not-for-profit",
+                  "calculator/Blog/what-would-a-financial-system-built-by-artists-look-like"
+                ]
+              },
+              {
+                "group": "🚀 Practical Strategies",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "calculator/Blog/how-to-train-an-ai-that-keeps-you-financially-sane",
+                  "calculator/Blog/how-to-use-financial-simulators-to-escape-your-country",
+                  "calculator/Blog/the-guide-to-building-wealth-without-a-bank-boss-or-budget-app"
+                ]
+              },
+              {
+                "group": "🎨 Creative Finance",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "calculator/Blog/from-conspiracy-to-forecast",
+                  "calculator/Blog/teaching-gen-z-finance-with-emojis-agents-and-absurdity",
+                  "calculator/Blog/the-ai-cfo-handbook-for-creators-hustlers-and-side-questers",
+                  "calculator/Blog/the-chaos-creators-guide-to-weaponizing-financial-models"
+                ]
+              }
             ]
           },
           {
@@ -380,19 +471,40 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "calculator/How-To/how-to-build-a-family-office-for-your-meme-coin-empire",
-              "calculator/How-To/how-to-clone-yourself-as-an-ai-cfo-for-your-hustles",
-              "calculator/How-To/how-to-do-an-IRR-battle-with-your-friend-at-the-BBQ",
-              "calculator/How-To/how-to-fractionalise-your-dreams-into-tokens-and-crowdfund-your-weirdest-life",
-              "calculator/How-To/how-to-pitch-your-startup-to-an-ai-vc-agent-you-trained",
-              "calculator/How-To/how-to-remix-global-risk-metrics-for-your-own-countrys-chaos",
-              "calculator/How-To/how-to-share-your-financial-conspiracy-theory-with-ai-math",
-              "calculator/How-To/how-to-turn-a-failed-startup-into-a-tax-advantaged-storytime",
-              "calculator/How-To/how-to-turn-a-spicy-tweet-into-a-financial-model",
-              "calculator/How-To/how-to-turn-your-dating-app-bio-into-a-pitch-deck",
-              "calculator/How-To/how-to-use-ai-to-model-the-value-of-your-meme-portfolio",
-              "calculator/How-To/how-to-use-life-plan-calculator-to-break-the-matrix",
-              "calculator/How-To/how-to-use-remixable-calculators-for-a-fake-real-estate-deal"
+              {
+                "group": "🧑‍💻 Build Your Empire",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "calculator/How-To/how-to-build-a-family-office-for-your-meme-coin-empire",
+                  "calculator/How-To/how-to-clone-yourself-as-an-ai-cfo-for-your-hustles",
+                  "calculator/How-To/how-to-pitch-your-startup-to-an-ai-vc-agent-you-trained"
+                ]
+              },
+              {
+                "group": "🎭 Creative Finance",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "calculator/How-To/how-to-fractionalise-your-dreams-into-tokens-and-crowdfund-your-weirdest-life",
+                  "calculator/How-To/how-to-turn-a-failed-startup-into-a-tax-advantaged-storytime",
+                  "calculator/How-To/how-to-turn-a-spicy-tweet-into-a-financial-model",
+                  "calculator/How-To/how-to-turn-your-dating-app-bio-into-a-pitch-deck"
+                ]
+              },
+              {
+                "group": "📊 Analytics & Fun",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "calculator/How-To/how-to-do-an-IRR-battle-with-your-friend-at-the-BBQ",
+                  "calculator/How-To/how-to-remix-global-risk-metrics-for-your-own-countrys-chaos",
+                  "calculator/How-To/how-to-share-your-financial-conspiracy-theory-with-ai-math",
+                  "calculator/How-To/how-to-use-ai-to-model-the-value-of-your-meme-portfolio",
+                  "calculator/How-To/how-to-use-life-plan-calculator-to-break-the-matrix",
+                  "calculator/How-To/how-to-use-remixable-calculators-for-a-fake-real-estate-deal"
+                ]
+              }
             ]
           },
           {
@@ -434,8 +546,22 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "flavor-foe/Blog/article1",
-              "flavor-foe/Blog/article2"
+              {
+                "group": "🌟 Culinary Trends",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "flavor-foe/Blog/article1"
+                ]
+              },
+              {
+                "group": "🍳 Cooking Innovation",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "flavor-foe/Blog/article2"
+                ]
+              }
             ]
           },
           {
@@ -444,8 +570,22 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "flavor-foe/How-To/guide1",
-              "flavor-foe/How-To/guide2"
+              {
+                "group": "🥗 Starter Guides",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "flavor-foe/How-To/guide1"
+                ]
+              },
+              {
+                "group": "🍲 Advanced Recipes",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "flavor-foe/How-To/guide2"
+                ]
+              }
             ]
           },
           {
@@ -487,8 +627,22 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "fractional-ownership/Blog/article1",
-              "fractional-ownership/Blog/article2"
+              {
+                "group": "🌟 Market Insights",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "fractional-ownership/Blog/article1"
+                ]
+              },
+              {
+                "group": "🏘️ Investment Trends",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "fractional-ownership/Blog/article2"
+                ]
+              }
             ]
           },
           {
@@ -497,8 +651,22 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "fractional-ownership/How-To/guide1",
-              "fractional-ownership/How-To/guide2"
+              {
+                "group": "🧑‍💻 Getting Started",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "fractional-ownership/How-To/guide1"
+                ]
+              },
+              {
+                "group": "📊 Advanced Strategies",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "fractional-ownership/How-To/guide2"
+                ]
+              }
             ]
           },
           {
@@ -540,8 +708,22 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "life-plan/Blog/article1",
-              "life-plan/Blog/article2"
+              {
+                "group": "🌟 Personal Growth",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "life-plan/Blog/article1"
+                ]
+              },
+              {
+                "group": "🚀 Life Strategies",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "life-plan/Blog/article2"
+                ]
+              }
             ]
           },
           {
@@ -550,8 +732,22 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "life-plan/How-To/guide1",
-              "life-plan/How-To/guide2"
+              {
+                "group": "🧑‍💻 Planning Basics",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "life-plan/How-To/guide1"
+                ]
+              },
+              {
+                "group": "🎯 Advanced Goals",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "life-plan/How-To/guide2"
+                ]
+              }
             ]
           },
           {
@@ -593,8 +789,22 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "love-trust-wealth/Blog/article1",
-              "love-trust-wealth/Blog/article2"
+              {
+                "group": "🌟 Relationship Dynamics",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "love-trust-wealth/Blog/article1"
+                ]
+              },
+              {
+                "group": "💕 Emotional Intelligence",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "love-trust-wealth/Blog/article2"
+                ]
+              }
             ]
           },
           {
@@ -603,8 +813,22 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "love-trust-wealth/How-To/guide1",
-              "love-trust-wealth/How-To/guide2"
+              {
+                "group": "🧑‍💻 Relationship Basics",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "love-trust-wealth/How-To/guide1"
+                ]
+              },
+              {
+                "group": "💑 Advanced Connections",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "love-trust-wealth/How-To/guide2"
+                ]
+              }
             ]
           },
           {
@@ -655,8 +879,22 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "sip-buddy/Blog/ai-powered-barista-future",
-              "sip-buddy/Blog/molecular-mixology-meets-machine-learning"
+              {
+                "group": "🌟 Beverage Trends",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "sip-buddy/Blog/ai-powered-barista-future"
+                ]
+              },
+              {
+                "group": "🍹 Mixology Insights",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "sip-buddy/Blog/molecular-mixology-meets-machine-learning"
+                ]
+              }
             ]
           },
           {
@@ -665,8 +903,22 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "sip-buddy/How-To/create-perfect-morning-routine",
-              "sip-buddy/How-To/optimize-caffeine-intake-ai"
+              {
+                "group": "☕ Morning Rituals",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "sip-buddy/How-To/create-perfect-morning-routine"
+                ]
+              },
+              {
+                "group": "🥤 Performance Drinks",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "sip-buddy/How-To/optimize-caffeine-intake-ai"
+                ]
+              }
             ]
           },
           {
@@ -711,12 +963,33 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "tinder-finance/Blog/ai-vs-your-bank-account",
-              "tinder-finance/Blog/roast-me-im-broke",
-              "tinder-finance/Blog/broke-but-brilliant",
-              "tinder-finance/Blog/we-asked-gen-z",
-              "tinder-finance/Blog/what-happens-when-you-mix-adhd",
-              "tinder-finance/Blog/swiping-left-on-debt"
+              {
+                "group": "🌟 Financial Mindset",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "tinder-finance/Blog/ai-vs-your-bank-account",
+                  "tinder-finance/Blog/swiping-left-on-debt"
+                ]
+              },
+              {
+                "group": "🎨 Creative Finance",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "tinder-finance/Blog/roast-me-im-broke",
+                  "tinder-finance/Blog/broke-but-brilliant",
+                  "tinder-finance/Blog/what-happens-when-you-mix-adhd"
+                ]
+              },
+              {
+                "group": "🚀 Youth & Finance",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "tinder-finance/Blog/we-asked-gen-z"
+                ]
+              }
             ]
           },
           {
@@ -725,12 +998,33 @@
             "collapsible": true,
             "collapsed": true,
             "pages": [
-              "tinder-finance/How-To/how-tinder-finance-works",
-              "tinder-finance/How-To/how-to-gamify-your-budget-using-money-mayhem-hub",
-              "tinder-finance/How-To/how-to-roast-your-financial-mistakes",
-              "tinder-finance/How-To/how-to-setup-your-financial-persona",
-              "tinder-finance/How-To/how-to-earn-xp-unlock-features-and-level-up-your-wallet",
-              "tinder-finance/How-To/how-to-create-and-share-financial-memes-that-actually-go-viral"
+              {
+                "group": "🧑‍💻 Gamified Finance",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "tinder-finance/How-To/how-tinder-finance-works",
+                  "tinder-finance/How-To/how-to-gamify-your-budget-using-money-mayhem-hub",
+                  "tinder-finance/How-To/how-to-earn-xp-unlock-features-and-level-up-your-wallet"
+                ]
+              },
+              {
+                "group": "🎭 Creative Strategies",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "tinder-finance/How-To/how-to-roast-your-financial-mistakes",
+                  "tinder-finance/How-To/how-to-create-and-share-financial-memes-that-actually-go-viral"
+                ]
+              },
+              {
+                "group": "📊 Personalization",
+                "collapsible": true,
+                "collapsed": true,
+                "pages": [
+                  "tinder-finance/How-To/how-to-setup-your-financial-persona"
+                ]
+              }
             ]
           },
           {
